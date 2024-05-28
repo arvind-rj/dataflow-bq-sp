@@ -18,18 +18,6 @@ package org.example.bq;
 
 // [START spanner_update_database]
 
-import com.google.api.gax.longrunning.OperationFuture;
-import com.google.cloud.spanner.Spanner;
-import com.google.cloud.spanner.SpannerExceptionFactory;
-import com.google.cloud.spanner.SpannerOptions;
-import com.google.cloud.spanner.admin.database.v1.DatabaseAdminClient;
-import com.google.common.collect.Lists;
-import com.google.protobuf.FieldMask;
-import com.google.spanner.admin.database.v1.Database;
-import com.google.spanner.admin.database.v1.DatabaseName;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 public class UpdateDatabaseSample {
 
