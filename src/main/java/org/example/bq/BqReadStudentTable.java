@@ -4,7 +4,9 @@ import com.google.cloud.bigquery.*;
 
 // Sample to query in a table
 public class BqReadStudentTable {
+
     public static void main(String... args) throws Exception {
+
         // Step 1: Initialize BigQuery service
         // Here we set our project ID and get the `BigQuery` service object
         // this is the interface to our BigQuery instance that
@@ -46,6 +48,7 @@ public class BqReadStudentTable {
             //String word = row.get("word").getStringValue();
             //int wordCount = row.get("word_count").getNumericValue().intValue();
             System.out.println(row.get("StudentID").getNumericValue().intValue());
+            UpdateDatabaseSample.updateDatabase();
         }
     }
 }

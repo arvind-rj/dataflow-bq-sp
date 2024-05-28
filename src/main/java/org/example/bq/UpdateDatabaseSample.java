@@ -19,48 +19,75 @@ package org.example.bq;
 // [START spanner_update_database]
 
 
+import com.google.cloud.spanner.*;
+
+import java.sql.Timestamp;
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.List;
+
 public class UpdateDatabaseSample {
 
-//  static void updateDatabase() {
-//    // TODO(developer): Replace these variables before running the sample.
-//    final String projectId = "my-project";
-//    final String instanceId = "my-instance";
-//    final String databaseId = "my-database";
-//
-//    updateDatabase(projectId, instanceId, databaseId);
-//  }
-//
-//  static void updateDatabase(
-//      String projectId, String instanceId, String databaseId) {
-//    try (Spanner spanner =
-//        SpannerOptions.newBuilder().setProjectId(projectId).build().getService();
-//        DatabaseAdminClient databaseAdminClient = spanner.createDatabaseAdminClient()) {
-//      final Database database =
-//          Database.newBuilder()
-//              .setName(DatabaseName.of(projectId, instanceId, databaseId).toString())
-//              .setEnableDropProtection(true).build();
-//      final UpdateDatabaseRequest updateDatabaseRequest =
-//          UpdateDatabaseRequest.newBuilder()
-//              .setDatabase(database)
-//              .setUpdateMask(
-//                  FieldMask.newBuilder().addAllPaths(
-//                      Lists.newArrayList("enable_drop_protection")).build())
-//              .build();
-//      OperationFuture<Database, UpdateDatabaseMetadata> operation =
-//          databaseAdminClient.updateDatabaseAsync(updateDatabaseRequest);
-//      System.out.printf("Waiting for update operation for %s to complete...\n", databaseId);
-//      Database updatedDb = operation.get(5, TimeUnit.MINUTES);
-//      System.out.printf("Updated database %s.\n", updatedDb.getName());
-//    } catch (ExecutionException | TimeoutException e) {
-//      // If the operation failed during execution, expose the cause.
-//      throw SpannerExceptionFactory.asSpannerException(e.getCause());
-//    } catch (InterruptedException e) {
-//      // Throw when a thread is waiting, sleeping, or otherwise occupied,
-//      // and the thread is interrupted, either before or during the activity.
-//      throw SpannerExceptionFactory.propagateInterrupt(e);
-//    }
-//  }
+    private static final Student[] STUDENTS = {new Student("asd", 456, "asd", Timestamp.from(Instant.now()))};
 
+    static void updateDatabase() {
+    // TODO(developer): Replace these variables before running the sample.
+    final String projectId = "burner-aragp";
+    final String instanceId = "spanner";
+    final String databaseId = "spannerdb";
 
+    updateDatabase(projectId, instanceId, databaseId);
+  }
+
+    public static void updateDatabase(String projectId,String instanceId,String databaseId) {
+        // [START init_client]
+        SpannerOptions options = SpannerOptions.newBuilder().build();
+        Spanner spanner = options.getService();
+        com.google.cloud.spanner.admin.database.v1.DatabaseAdminClient dbAdminClient = null;
+        try {
+            DatabaseId db = DatabaseId.of(options.getProjectId(), instanceId, databaseId);
+            // [END init_client]
+            // This will return the default project id based on the environment.
+            String clientProject = spanner.getOptions().getProjectId();
+            // Generate a backup id for the sample database.
+            DatabaseClient dbClient = spanner.getDatabaseClient(db);
+            dbAdminClient = spanner.createDatabaseAdminClient();
+
+            // Use client here...
+            // [END init_client]
+
+            writeExampleDataWithTimestamp(dbClient);
+            // [START init_client]
+        } finally {
+            if (dbAdminClient != null) {
+                if (!dbAdminClient.isShutdown() || !dbAdminClient.isTerminated()) {
+                    dbAdminClient.close();
+                }
+            }
+            spanner.close();
+        }
+        // [END init_client]
+        System.out.println("Closed client");
+    }
+    static void writeExampleDataWithTimestamp(DatabaseClient dbClient) {
+        List<Mutation> mutations = new ArrayList<>();
+        for (Student performance : STUDENTS) {
+            mutations.add(
+                    Mutation.newInsertBuilder("Student")
+                            .set("name")
+                            .to(performance.getName())
+                            .set("city")
+                            .to(performance.getCity())
+                            .set("id")
+                            .to(performance.getId())
+                            .set("timestamp")
+                            .to(Value.COMMIT_TIMESTAMP)
+                            .build());
+        }
+        dbClient.write(mutations);
+    }
 }
+
+
+
 // [END spanner_update_database]
