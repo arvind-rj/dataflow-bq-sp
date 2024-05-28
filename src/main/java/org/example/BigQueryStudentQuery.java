@@ -1,5 +1,15 @@
 package org.example;
 
+import com.google.api.services.bigquery.model.TableRow;
+import org.apache.beam.sdk.Pipeline;
+import org.apache.beam.sdk.io.gcp.bigquery.BigQueryIO;
+import org.apache.beam.sdk.options.PipelineOptionsFactory;
+import org.apache.beam.sdk.options.StreamingOptions;
+import org.apache.beam.sdk.transforms.MapElements;
+import org.apache.beam.sdk.values.TypeDescriptor;
+
+import javax.swing.text.TableView;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class BigQueryStudentQuery {
@@ -12,7 +22,7 @@ public class BigQueryStudentQuery {
         Pipeline pipeline = Pipeline.create(options);
 
         // Define the BigQuery SQL query
-        String query = "SELECT * FROM `your-project-id.your-dataset-id.your-table-id`";
+        String query = "SELECT * FROM `burner-aragp.studentDB.student` LIMIT 100";
 
         // Apply transformations to the pipeline
         pipeline
@@ -28,6 +38,6 @@ public class BigQueryStudentQuery {
                 }));
 
         // Run the pipeline
-        pipeline.run().waitUntilFinish();
+        pipeline.run();
     }
 }
