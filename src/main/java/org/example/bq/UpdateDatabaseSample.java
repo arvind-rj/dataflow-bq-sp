@@ -73,7 +73,7 @@ public class UpdateDatabaseSample {
         List<Mutation> mutations = new ArrayList<>();
         for (Student performance : STUDENTS) {
             mutations.add(
-                    Mutation.newInsertBuilder("Student")
+                    Mutation.newInsertBuilder("Students")
                             .set("name")
                             .to(performance.getName())
                             .set("city")
