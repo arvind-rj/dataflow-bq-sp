@@ -27,53 +27,51 @@ import com.google.common.collect.Lists;
 import com.google.protobuf.FieldMask;
 import com.google.spanner.admin.database.v1.Database;
 import com.google.spanner.admin.database.v1.DatabaseName;
-import com.google.spanner.admin.database.v1.UpdateDatabaseMetadata;
-import com.google.spanner.admin.database.v1.UpdateDatabaseRequest;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class UpdateDatabaseSample {
 
-  static void updateDatabase() {
-    // TODO(developer): Replace these variables before running the sample.
-    final String projectId = "my-project";
-    final String instanceId = "my-instance";
-    final String databaseId = "my-database";
-
-    updateDatabase(projectId, instanceId, databaseId);
-  }
-
-  static void updateDatabase(
-      String projectId, String instanceId, String databaseId) {
-    try (Spanner spanner =
-        SpannerOptions.newBuilder().setProjectId(projectId).build().getService();
-        DatabaseAdminClient databaseAdminClient = spanner.createDatabaseAdminClient()) {
-      final Database database =
-          Database.newBuilder()
-              .setName(DatabaseName.of(projectId, instanceId, databaseId).toString())
-              .setEnableDropProtection(true).build();
-      final UpdateDatabaseRequest updateDatabaseRequest =
-          UpdateDatabaseRequest.newBuilder()
-              .setDatabase(database)
-              .setUpdateMask(
-                  FieldMask.newBuilder().addAllPaths(
-                      Lists.newArrayList("enable_drop_protection")).build())
-              .build();
-      OperationFuture<Database, UpdateDatabaseMetadata> operation =
-          databaseAdminClient.updateDatabaseAsync(updateDatabaseRequest);
-      System.out.printf("Waiting for update operation for %s to complete...\n", databaseId);
-      Database updatedDb = operation.get(5, TimeUnit.MINUTES);
-      System.out.printf("Updated database %s.\n", updatedDb.getName());
-    } catch (ExecutionException | TimeoutException e) {
-      // If the operation failed during execution, expose the cause.
-      throw SpannerExceptionFactory.asSpannerException(e.getCause());
-    } catch (InterruptedException e) {
-      // Throw when a thread is waiting, sleeping, or otherwise occupied,
-      // and the thread is interrupted, either before or during the activity.
-      throw SpannerExceptionFactory.propagateInterrupt(e);
-    }
-  }
+//  static void updateDatabase() {
+//    // TODO(developer): Replace these variables before running the sample.
+//    final String projectId = "my-project";
+//    final String instanceId = "my-instance";
+//    final String databaseId = "my-database";
+//
+//    updateDatabase(projectId, instanceId, databaseId);
+//  }
+//
+//  static void updateDatabase(
+//      String projectId, String instanceId, String databaseId) {
+//    try (Spanner spanner =
+//        SpannerOptions.newBuilder().setProjectId(projectId).build().getService();
+//        DatabaseAdminClient databaseAdminClient = spanner.createDatabaseAdminClient()) {
+//      final Database database =
+//          Database.newBuilder()
+//              .setName(DatabaseName.of(projectId, instanceId, databaseId).toString())
+//              .setEnableDropProtection(true).build();
+//      final UpdateDatabaseRequest updateDatabaseRequest =
+//          UpdateDatabaseRequest.newBuilder()
+//              .setDatabase(database)
+//              .setUpdateMask(
+//                  FieldMask.newBuilder().addAllPaths(
+//                      Lists.newArrayList("enable_drop_protection")).build())
+//              .build();
+//      OperationFuture<Database, UpdateDatabaseMetadata> operation =
+//          databaseAdminClient.updateDatabaseAsync(updateDatabaseRequest);
+//      System.out.printf("Waiting for update operation for %s to complete...\n", databaseId);
+//      Database updatedDb = operation.get(5, TimeUnit.MINUTES);
+//      System.out.printf("Updated database %s.\n", updatedDb.getName());
+//    } catch (ExecutionException | TimeoutException e) {
+//      // If the operation failed during execution, expose the cause.
+//      throw SpannerExceptionFactory.asSpannerException(e.getCause());
+//    } catch (InterruptedException e) {
+//      // Throw when a thread is waiting, sleeping, or otherwise occupied,
+//      // and the thread is interrupted, either before or during the activity.
+//      throw SpannerExceptionFactory.propagateInterrupt(e);
+//    }
+//  }
 
 
 }
