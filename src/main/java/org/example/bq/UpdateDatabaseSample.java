@@ -74,5 +74,7 @@ public class UpdateDatabaseSample {
       throw SpannerExceptionFactory.propagateInterrupt(e);
     }
   }
+
+
 }
 // [END spanner_update_database]

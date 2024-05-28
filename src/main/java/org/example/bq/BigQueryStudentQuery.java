@@ -9,6 +9,7 @@ import org.apache.beam.sdk.transforms.MapElements;
 import org.apache.beam.sdk.values.TypeDescriptor;
 
 import javax.swing.text.TableView;
+import java.util.Optional;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -23,6 +24,13 @@ public class BigQueryStudentQuery {
 
         // Define the BigQuery SQL query
         String query = "SELECT * FROM `burner-aragp.studentDB.student` LIMIT 100";
+
+        // Read the last commit timestamp from Spanner
+       // Optional<String> lastCommitTimestamp = SpannerTimestampReader.readLastCommitTimestamp(burner-aragp, instanceId, databaseId);
+
+        // Define the BigQuery SQL query using the timestamp
+       // String query = "SELECT * FROM `your-project-id.your-dataset-id.your-table-id`" +
+        //        (lastCommitTimestamp.isPresent() ? " WHERE timestamp_column > '" + lastCommitTimestamp.get() + "'" : "");
 
         // Apply transformations to the pipeline
         pipeline
@@ -40,4 +48,7 @@ public class BigQueryStudentQuery {
         // Run the pipeline
         pipeline.run();
     }
+
+
+
 }
