@@ -28,7 +28,6 @@ import java.util.List;
 
 public class UpdateDatabaseSample {
 
-    private static final Student[] STUDENTS = {new Student("asd", 456, "asd", Timestamp.from(Instant.now()))};
 
     static void updateDatabase(Student student) {
     // TODO(developer): Replace these variables before running the sample.
@@ -71,19 +70,17 @@ public class UpdateDatabaseSample {
     }
     static void writeExampleDataWithTimestamp(DatabaseClient dbClient, Student student) {
         List<Mutation> mutations = new ArrayList<>();
-        for (Student performance : STUDENTS) {
             mutations.add(
                     Mutation.newInsertBuilder("Students")
                             .set("name")
-                            .to(performance.getName())
+                            .to(student.getName())
                             .set("city")
-                            .to(performance.getCity())
+                            .to(student.getCity())
                             .set("id")
-                            .to(performance.getId())
+                            .to(student.getId())
                             .set("timestamp")
-                            .to(Value.COMMIT_TIMESTAMP)
+                            .to(student.getTimestamp())
                             .build());
-        }
         dbClient.write(mutations);
     }
 }

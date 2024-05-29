@@ -6,9 +6,9 @@ public class Student {
     private String name;
     private int id;
     private String city;
-    private Timestamp timestamp;
+    private String timestamp;
 
-    public Student(String name, int id, String city, Timestamp timestamp) {
+    public Student(String name, int id, String city, String timestamp) {
         this.name = name;
         this.id = id;
         this.city = city;
@@ -39,11 +39,11 @@ public class Student {
         this.city = city;
     }
 
-    public Timestamp getTimestamp() {
+    public String getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(Timestamp timestamp) {
+    public void setTimestamp(String timestamp) {
         this.timestamp = timestamp;
     }
 }
