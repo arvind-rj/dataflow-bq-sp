@@ -2,6 +2,9 @@ package org.example.bq;
 
 import com.google.cloud.bigquery.*;
 
+import java.sql.Timestamp;
+import java.time.Instant;
+
 // Sample to query in a table
 public class BqReadStudentTable {
 
@@ -48,7 +51,8 @@ public class BqReadStudentTable {
             //String word = row.get("word").getStringValue();
             //int wordCount = row.get("word_count").getNumericValue().intValue();
             System.out.println(row.get("StudentID").getNumericValue().intValue());
-            UpdateDatabaseSample.updateDatabase();
+            Student student = new Student(row.get("FirstName").getStringValue(), row.get("StudentID").getNumericValue().intValue(), row.get("City").getStringValue(), Timestamp.from(Instant.now()));
+            UpdateDatabaseSample.updateDatabase(student);
         }
     }
 }

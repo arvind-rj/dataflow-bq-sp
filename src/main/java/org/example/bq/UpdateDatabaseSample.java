@@ -30,16 +30,16 @@ public class UpdateDatabaseSample {
 
     private static final Student[] STUDENTS = {new Student("asd", 456, "asd", Timestamp.from(Instant.now()))};
 
-    static void updateDatabase() {
+    static void updateDatabase(Student student) {
     // TODO(developer): Replace these variables before running the sample.
     final String projectId = "burner-aragp";
     final String instanceId = "spanner";
     final String databaseId = "spannerdb";
 
-    updateDatabase(projectId, instanceId, databaseId);
+    updateDatabase(instanceId, databaseId, student);
   }
 
-    public static void updateDatabase(String projectId,String instanceId,String databaseId) {
+    public static void updateDatabase(String instanceId,String databaseId, Student student) {
         // [START init_client]
         SpannerOptions options = SpannerOptions.newBuilder().build();
         Spanner spanner = options.getService();
@@ -56,7 +56,7 @@ public class UpdateDatabaseSample {
             // Use client here...
             // [END init_client]
 
-            writeExampleDataWithTimestamp(dbClient);
+            writeExampleDataWithTimestamp(dbClient, student);
             // [START init_client]
         } finally {
             if (dbAdminClient != null) {
@@ -69,7 +69,7 @@ public class UpdateDatabaseSample {
         // [END init_client]
         System.out.println("Closed client");
     }
-    static void writeExampleDataWithTimestamp(DatabaseClient dbClient) {
+    static void writeExampleDataWithTimestamp(DatabaseClient dbClient, Student student) {
         List<Mutation> mutations = new ArrayList<>();
         for (Student performance : STUDENTS) {
             mutations.add(
