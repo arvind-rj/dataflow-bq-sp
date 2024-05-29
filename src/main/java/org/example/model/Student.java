@@ -1,4 +1,4 @@
-package org.example.bq;
+package org.example.model;
 
 import java.sql.Timestamp;
 

@@ -1,11 +1,9 @@
 package org.example.bq;
 
 import com.google.cloud.bigquery.*;
+import org.example.model.Student;
+import org.example.spanner.UpdateDatabaseSample;
 
-import java.sql.Timestamp;
-import java.time.Instant;
-
-// Sample to query in a table
 public class BqReadStudentTable {
 
     public static void main(String... args) throws Exception {
@@ -48,9 +46,6 @@ public class BqReadStudentTable {
         for (FieldValueList row : result.iterateAll()) {
             // We can use the `get` method along with the column
             // name to get the corresponding row entry
-            //String word = row.get("word").getStringValue();
-            //int wordCount = row.get("word_count").getNumericValue().intValue();
-           // System.out.println(row.get("StudentID").getNumericValue().intValue());
             Student student = new Student(row.get("name").getStringValue(), row.get("id").getNumericValue().intValue(), row.get("City").getStringValue(), row.get("timestamp").getStringValue());
             UpdateDatabaseSample.updateDatabase(student);
         }
