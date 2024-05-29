@@ -21,24 +21,14 @@ package org.example.bq;
 
 import com.google.cloud.spanner.*;
 
-import java.sql.Timestamp;
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UpdateDatabaseSample {
+    static final String instanceId = "spanner";
+    static final String databaseId = "spannerdb";
 
-
-    static void updateDatabase(Student student) {
-    // TODO(developer): Replace these variables before running the sample.
-    final String projectId = "burner-aragp";
-    final String instanceId = "spanner";
-    final String databaseId = "spannerdb";
-
-    updateDatabase(instanceId, databaseId, student);
-  }
-
-    public static void updateDatabase(String instanceId,String databaseId, Student student) {
+    public static void updateDatabase(Student student) {
         // [START init_client]
         SpannerOptions options = SpannerOptions.newBuilder().build();
         Spanner spanner = options.getService();
@@ -68,20 +58,54 @@ public class UpdateDatabaseSample {
         // [END init_client]
         System.out.println("Closed client");
     }
+
     static void writeExampleDataWithTimestamp(DatabaseClient dbClient, Student student) {
+
         List<Mutation> mutations = new ArrayList<>();
-            mutations.add(
-                    Mutation.newInsertBuilder("Students")
-                            .set("name")
-                            .to(student.getName())
-                            .set("city")
-                            .to(student.getCity())
-                            .set("id")
-                            .to(student.getId())
-                            .set("timestamp")
-                            .to(student.getTimestamp())
-                            .build());
+        mutations.add(
+                Mutation.newInsertBuilder("Students")
+                        .set("name")
+                        .to(student.getName())
+                        .set("city")
+                        .to(student.getCity())
+                        .set("id")
+                        .to(student.getId())
+                        .set("timestamp")
+                        .to(student.getTimestamp())
+                        .build());
         dbClient.write(mutations);
+    }
+
+
+    static int query() {
+        SpannerOptions options = SpannerOptions.newBuilder().build();
+        Spanner spanner = options.getService();
+        com.google.cloud.spanner.admin.database.v1.DatabaseAdminClient dbAdminClient = null;
+        DatabaseId db = DatabaseId.of(options.getProjectId(), instanceId, databaseId);
+        // [END init_client]
+        // This will return the default project id based on the environment.
+        String clientProject = spanner.getOptions().getProjectId();
+        // Generate a backup id for the sample database.
+        DatabaseClient dbClient = spanner.getDatabaseClient(db);
+        dbAdminClient = spanner.createDatabaseAdminClient();
+        int id = 0;
+        try (ResultSet resultSet =
+                     dbClient
+                             .singleUse() // Execute a single read or query against Cloud Spanner.
+                             .executeQuery(Statement.of("SELECT id FROM students order by id desc LIMIT 1"))) {
+
+            while (resultSet.next()) {
+                id = (int) resultSet.getLong(0);
+            }
+        } finally {
+            if (dbAdminClient != null) {
+                if (!dbAdminClient.isShutdown() || !dbAdminClient.isTerminated()) {
+                    dbAdminClient.close();
+                }
+            }
+            spanner.close();
+        }
+            return id;
     }
 }
 

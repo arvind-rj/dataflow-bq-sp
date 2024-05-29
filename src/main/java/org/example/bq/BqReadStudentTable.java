@@ -20,10 +20,10 @@ public class BqReadStudentTable {
         // Step 2: Prepare query job
         // A "QueryJob" is a type of job that executes SQL queries
         // we create a new job configuration from our SQL query and
-        final String GET_WORD_COUNT =
-                "SELECT * FROM `burner-aragp.studentDB.student` LIMIT 100";
+        int id = UpdateDatabaseSample.query();
+        final String STUDENT_QUERY = String.format("SELECT * FROM `burner-aragp.studentDB.student` WHERE id > %d order by id LIMIT 10 ", id);
         QueryJobConfiguration queryConfig =
-                QueryJobConfiguration.newBuilder(GET_WORD_COUNT).build();
+                QueryJobConfiguration.newBuilder(STUDENT_QUERY).build();
 
         // Step 3: Run the job on BigQuery
         // create a `Job` instance from the job configuration using the BigQuery service
@@ -43,7 +43,7 @@ public class BqReadStudentTable {
         // Step 4: Display results
         // Print out a header line, and iterate through the
         // query results to print each result in a new line
-        System.out.println("word\tword_count");
+        System.out.println("Querying  the Bq  for the results");
         TableResult result = queryJob.getQueryResults();
         for (FieldValueList row : result.iterateAll()) {
             // We can use the `get` method along with the column
