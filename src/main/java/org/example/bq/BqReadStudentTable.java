@@ -50,7 +50,7 @@ public class BqReadStudentTable {
             // name to get the corresponding row entry
             //String word = row.get("word").getStringValue();
             //int wordCount = row.get("word_count").getNumericValue().intValue();
-            System.out.println(row.get("StudentID").getNumericValue().intValue());
+           // System.out.println(row.get("StudentID").getNumericValue().intValue());
             Student student = new Student(row.get("name").getStringValue(), row.get("id").getNumericValue().intValue(), row.get("City").getStringValue(), row.get("timestamp").getStringValue());
             UpdateDatabaseSample.updateDatabase(student);
         }
