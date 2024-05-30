@@ -19,7 +19,7 @@ public class BqReadStudentTable {
         // A "QueryJob" is a type of job that executes SQL queries
         // we create a new job configuration from our SQL query and
         int id = UpdateDatabaseSample.query();
-        final String STUDENT_QUERY = String.format("SELECT * FROM `burner-aragp.studentDB.student` WHERE id > %d order by id LIMIT 10 ", id);
+        final String STUDENT_QUERY = String.format("SELECT * FROM `burner-aragp.studentDB.student` WHERE id > %d order by id LIMIT 100 ", id);
         QueryJobConfiguration queryConfig =
                 QueryJobConfiguration.newBuilder(STUDENT_QUERY).build();
 
@@ -43,11 +43,16 @@ public class BqReadStudentTable {
         // query results to print each result in a new line
         System.out.println("Querying  the Bq  for the results");
         TableResult result = queryJob.getQueryResults();
+        int i = 0;
         for (FieldValueList row : result.iterateAll()) {
             // We can use the `get` method along with the column
             // name to get the corresponding row entry
             Student student = new Student(row.get("name").getStringValue(), row.get("id").getNumericValue().intValue(), row.get("City").getStringValue(), row.get("timestamp").getStringValue());
             UpdateDatabaseSample.updateDatabase(student);
+            i++;
+            if (i==24) {
+                throw new Exception("Enforcing the Job failure");
+            }
         }
     }
 }
