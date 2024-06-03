@@ -1,0 +1,1001 @@
+name,age,department,city,college,id,timestamp
+Student_1,24,Civil Engineering,Mumbai,IIT Ahmedabad,1,2023-01-01 00:00:00
+Student_2,25,Civil Engineering,Ahmedabad,IIT Pune,2,2023-01-01 00:01:00
+Student_3,23,Chemical Engineering,Hyderabad,IIT Jaipur,3,2023-01-01 00:02:00
+Student_4,20,Mechanical Engineering,Bangalore,IIT Delhi,4,2023-01-01 00:03:00
+Student_5,22,Chemical Engineering,Lucknow,IIT Bangalore,5,2023-01-01 00:04:00
+Student_6,22,Computer Science,Delhi,IIT Chennai,6,2023-01-01 00:05:00
+Student_7,25,Chemical Engineering,Delhi,IIT Chennai,7,2023-01-01 00:06:00
+Student_8,24,Mechanical Engineering,Lucknow,IIT Hyderabad,8,2023-01-01 00:07:00
+Student_9,25,Civil Engineering,Jaipur,IIT Ahmedabad,9,2023-01-01 00:08:00
+Student_10,18,Chemical Engineering,Mumbai,IIT Delhi,10,2023-01-01 00:09:00
+Student_11,24,Biotechnology,Mumbai,IIT Lucknow,11,2023-01-01 00:10:00
+Student_12,25,Mechanical Engineering,Hyderabad,IIT Chennai,12,2023-01-01 00:11:00
+Student_13,19,Electrical Engineering,Lucknow,IIT Hyderabad,13,2023-01-01 00:12:00
+Student_14,21,Electrical Engineering,Jaipur,IIT Pune,14,2023-01-01 00:13:00
+Student_15,19,Computer Science,Chennai,IIT Jaipur,15,2023-01-01 00:14:00
+Student_16,25,Computer Science,Ahmedabad,IIT Jaipur,16,2023-01-01 00:15:00
+Student_17,22,Biotechnology,Delhi,IIT Jaipur,17,2023-01-01 00:16:00
+Student_18,23,Chemical Engineering,Hyderabad,IIT Lucknow,18,2023-01-01 00:17:00
+Student_19,22,Civil Engineering,Delhi,IIT Lucknow,19,2023-01-01 00:18:00
+Student_20,24,Mechanical Engineering,Lucknow,IIT Hyderabad,20,2023-01-01 00:19:00
+Student_21,22,Electrical Engineering,Hyderabad,IIT Bangalore,21,2023-01-01 00:20:00
+Student_22,18,Chemical Engineering,Ahmedabad,IIT Pune,22,2023-01-01 00:21:00
+Student_23,19,Computer Science,Bangalore,IIT Bangalore,23,2023-01-01 00:22:00
+Student_24,18,Computer Science,Jaipur,IIT Kolkata,24,2023-01-01 00:23:00
+Student_25,22,Chemical Engineering,Hyderabad,IIT Hyderabad,25,2023-01-01 00:24:00
+Student_26,24,Chemical Engineering,Ahmedabad,IIT Pune,26,2023-01-01 00:25:00
+Student_27,25,Biotechnology,Chennai,IIT Delhi,27,2023-01-01 00:26:00
+Student_28,23,Chemical Engineering,Delhi,IIT Pune,28,2023-01-01 00:27:00
+Student_29,23,Electrical Engineering,Hyderabad,IIT Bombay,29,2023-01-01 00:28:00
+Student_30,22,Computer Science,Hyderabad,IIT Chennai,30,2023-01-01 00:29:00
+Student_31,20,Mechanical Engineering,Kolkata,IIT Bombay,31,2023-01-01 00:30:00
+Student_32,19,Electrical Engineering,Hyderabad,IIT Bombay,32,2023-01-01 00:31:00
+Student_33,19,Computer Science,Delhi,IIT Hyderabad,33,2023-01-01 00:32:00
+Student_34,19,Civil Engineering,Delhi,IIT Chennai,34,2023-01-01 00:33:00
+Student_35,19,Computer Science,Lucknow,IIT Bombay,35,2023-01-01 00:34:00
+Student_36,21,Electrical Engineering,Delhi,IIT Pune,36,2023-01-01 00:35:00
+Student_37,21,Biotechnology,Mumbai,IIT Bombay,37,2023-01-01 00:36:00
+Student_38,24,Chemical Engineering,Delhi,IIT Ahmedabad,38,2023-01-01 00:37:00
+Student_39,19,Electrical Engineering,Delhi,IIT Ahmedabad,39,2023-01-01 00:38:00
+Student_40,23,Civil Engineering,Bangalore,IIT Bombay,40,2023-01-01 00:39:00
+Student_41,25,Computer Science,Lucknow,IIT Delhi,41,2023-01-01 00:40:00
+Student_42,24,Electrical Engineering,Ahmedabad,IIT Chennai,42,2023-01-01 00:41:00
+Student_43,25,Chemical Engineering,Bangalore,IIT Hyderabad,43,2023-01-01 00:42:00
+Student_44,18,Biotechnology,Bangalore,IIT Bangalore,44,2023-01-01 00:43:00
+Student_45,23,Chemical Engineering,Ahmedabad,IIT Delhi,45,2023-01-01 00:44:00
+Student_46,25,Biotechnology,Bangalore,IIT Bombay,46,2023-01-01 00:45:00
+Student_47,25,Biotechnology,Kolkata,IIT Lucknow,47,2023-01-01 00:46:00
+Student_48,22,Biotechnology,Chennai,IIT Kolkata,48,2023-01-01 00:47:00
+Student_49,22,Electrical Engineering,Jaipur,IIT Bombay,49,2023-01-01 00:48:00
+Student_50,25,Biotechnology,Delhi,IIT Chennai,50,2023-01-01 00:49:00
+Student_51,18,Chemical Engineering,Ahmedabad,IIT Bangalore,51,2023-01-01 00:50:00
+Student_52,21,Civil Engineering,Chennai,IIT Lucknow,52,2023-01-01 00:51:00
+Student_53,22,Biotechnology,Chennai,IIT Lucknow,53,2023-01-01 00:52:00
+Student_54,20,Biotechnology,Ahmedabad,IIT Kolkata,54,2023-01-01 00:53:00
+Student_55,24,Biotechnology,Delhi,IIT Bombay,55,2023-01-01 00:54:00
+Student_56,21,Biotechnology,Chennai,IIT Bangalore,56,2023-01-01 00:55:00
+Student_57,21,Electrical Engineering,Pune,IIT Kolkata,57,2023-01-01 00:56:00
+Student_58,24,Computer Science,Kolkata,IIT Lucknow,58,2023-01-01 00:57:00
+Student_59,24,Biotechnology,Mumbai,IIT Bangalore,59,2023-01-01 00:58:00
+Student_60,25,Computer Science,Ahmedabad,IIT Bangalore,60,2023-01-01 00:59:00
+Student_61,25,Chemical Engineering,Pune,IIT Jaipur,61,2023-01-01 01:00:00
+Student_62,18,Computer Science,Pune,IIT Chennai,62,2023-01-01 01:01:00
+Student_63,22,Civil Engineering,Mumbai,IIT Kolkata,63,2023-01-01 01:02:00
+Student_64,21,Chemical Engineering,Delhi,IIT Bangalore,64,2023-01-01 01:03:00
+Student_65,18,Civil Engineering,Kolkata,IIT Chennai,65,2023-01-01 01:04:00
+Student_66,18,Electrical Engineering,Mumbai,IIT Bombay,66,2023-01-01 01:05:00
+Student_67,19,Electrical Engineering,Delhi,IIT Lucknow,67,2023-01-01 01:06:00
+Student_68,21,Mechanical Engineering,Ahmedabad,IIT Bangalore,68,2023-01-01 01:07:00
+Student_69,19,Civil Engineering,Kolkata,IIT Delhi,69,2023-01-01 01:08:00
+Student_70,18,Mechanical Engineering,Pune,IIT Delhi,70,2023-01-01 01:09:00
+Student_71,22,Electrical Engineering,Jaipur,IIT Chennai,71,2023-01-01 01:10:00
+Student_72,19,Electrical Engineering,Ahmedabad,IIT Bombay,72,2023-01-01 01:11:00
+Student_73,18,Computer Science,Hyderabad,IIT Ahmedabad,73,2023-01-01 01:12:00
+Student_74,23,Mechanical Engineering,Lucknow,IIT Bombay,74,2023-01-01 01:13:00
+Student_75,25,Biotechnology,Pune,IIT Kolkata,75,2023-01-01 01:14:00
+Student_76,23,Chemical Engineering,Bangalore,IIT Hyderabad,76,2023-01-01 01:15:00
+Student_77,24,Chemical Engineering,Ahmedabad,IIT Bombay,77,2023-01-01 01:16:00
+Student_78,20,Electrical Engineering,Ahmedabad,IIT Chennai,78,2023-01-01 01:17:00
+Student_79,23,Mechanical Engineering,Delhi,IIT Chennai,79,2023-01-01 01:18:00
+Student_80,18,Computer Science,Ahmedabad,IIT Bangalore,80,2023-01-01 01:19:00
+Student_81,20,Chemical Engineering,Ahmedabad,IIT Chennai,81,2023-01-01 01:20:00
+Student_82,24,Chemical Engineering,Bangalore,IIT Ahmedabad,82,2023-01-01 01:21:00
+Student_83,19,Civil Engineering,Hyderabad,IIT Bombay,83,2023-01-01 01:22:00
+Student_84,22,Electrical Engineering,Jaipur,IIT Delhi,84,2023-01-01 01:23:00
+Student_85,22,Civil Engineering,Chennai,IIT Ahmedabad,85,2023-01-01 01:24:00
+Student_86,24,Computer Science,Delhi,IIT Jaipur,86,2023-01-01 01:25:00
+Student_87,25,Civil Engineering,Chennai,IIT Chennai,87,2023-01-01 01:26:00
+Student_88,19,Civil Engineering,Delhi,IIT Pune,88,2023-01-01 01:27:00
+Student_89,24,Computer Science,Ahmedabad,IIT Chennai,89,2023-01-01 01:28:00
+Student_90,20,Electrical Engineering,Lucknow,IIT Kolkata,90,2023-01-01 01:29:00
+Student_91,19,Computer Science,Delhi,IIT Hyderabad,91,2023-01-01 01:30:00
+Student_92,21,Computer Science,Kolkata,IIT Bombay,92,2023-01-01 01:31:00
+Student_93,19,Civil Engineering,Jaipur,IIT Jaipur,93,2023-01-01 01:32:00
+Student_94,22,Civil Engineering,Pune,IIT Lucknow,94,2023-01-01 01:33:00
+Student_95,21,Civil Engineering,Delhi,IIT Chennai,95,2023-01-01 01:34:00
+Student_96,21,Mechanical Engineering,Lucknow,IIT Bangalore,96,2023-01-01 01:35:00
+Student_97,24,Electrical Engineering,Chennai,IIT Delhi,97,2023-01-01 01:36:00
+Student_98,19,Biotechnology,Mumbai,IIT Jaipur,98,2023-01-01 01:37:00
+Student_99,25,Biotechnology,Hyderabad,IIT Delhi,99,2023-01-01 01:38:00
+Student_100,25,Civil Engineering,Ahmedabad,IIT Hyderabad,100,2023-01-01 01:39:00
+Student_101,18,Electrical Engineering,Lucknow,IIT Bangalore,101,2023-01-01 01:40:00
+Student_102,19,Electrical Engineering,Pune,IIT Kolkata,102,2023-01-01 01:41:00
+Student_103,23,Chemical Engineering,Bangalore,IIT Delhi,103,2023-01-01 01:42:00
+Student_104,25,Electrical Engineering,Lucknow,IIT Kolkata,104,2023-01-01 01:43:00
+Student_105,24,Chemical Engineering,Pune,IIT Chennai,105,2023-01-01 01:44:00
+Student_106,25,Civil Engineering,Hyderabad,IIT Jaipur,106,2023-01-01 01:45:00
+Student_107,21,Computer Science,Chennai,IIT Chennai,107,2023-01-01 01:46:00
+Student_108,23,Computer Science,Jaipur,IIT Bangalore,108,2023-01-01 01:47:00
+Student_109,22,Chemical Engineering,Bangalore,IIT Kolkata,109,2023-01-01 01:48:00
+Student_110,22,Biotechnology,Pune,IIT Delhi,110,2023-01-01 01:49:00
+Student_111,19,Chemical Engineering,Mumbai,IIT Delhi,111,2023-01-01 01:50:00
+Student_112,21,Electrical Engineering,Mumbai,IIT Ahmedabad,112,2023-01-01 01:51:00
+Student_113,18,Civil Engineering,Chennai,IIT Bangalore,113,2023-01-01 01:52:00
+Student_114,20,Biotechnology,Pune,IIT Chennai,114,2023-01-01 01:53:00
+Student_115,24,Chemical Engineering,Jaipur,IIT Bombay,115,2023-01-01 01:54:00
+Student_116,19,Biotechnology,Jaipur,IIT Lucknow,116,2023-01-01 01:55:00
+Student_117,19,Biotechnology,Kolkata,IIT Hyderabad,117,2023-01-01 01:56:00
+Student_118,22,Chemical Engineering,Lucknow,IIT Kolkata,118,2023-01-01 01:57:00
+Student_119,25,Civil Engineering,Lucknow,IIT Lucknow,119,2023-01-01 01:58:00
+Student_120,21,Computer Science,Mumbai,IIT Bangalore,120,2023-01-01 01:59:00
+Student_121,22,Chemical Engineering,Lucknow,IIT Ahmedabad,121,2023-01-01 02:00:00
+Student_122,23,Computer Science,Pune,IIT Ahmedabad,122,2023-01-01 02:01:00
+Student_123,22,Civil Engineering,Kolkata,IIT Kolkata,123,2023-01-01 02:02:00
+Student_124,18,Electrical Engineering,Bangalore,IIT Hyderabad,124,2023-01-01 02:03:00
+Student_125,22,Biotechnology,Chennai,IIT Bombay,125,2023-01-01 02:04:00
+Student_126,18,Civil Engineering,Kolkata,IIT Bangalore,126,2023-01-01 02:05:00
+Student_127,25,Chemical Engineering,Delhi,IIT Bangalore,127,2023-01-01 02:06:00
+Student_128,23,Civil Engineering,Mumbai,IIT Lucknow,128,2023-01-01 02:07:00
+Student_129,25,Civil Engineering,Pune,IIT Bombay,129,2023-01-01 02:08:00
+Student_130,19,Civil Engineering,Bangalore,IIT Bombay,130,2023-01-01 02:09:00
+Student_131,18,Chemical Engineering,Lucknow,IIT Bangalore,131,2023-01-01 02:10:00
+Student_132,23,Computer Science,Jaipur,IIT Chennai,132,2023-01-01 02:11:00
+Student_133,21,Civil Engineering,Pune,IIT Delhi,133,2023-01-01 02:12:00
+Student_134,18,Chemical Engineering,Pune,IIT Lucknow,134,2023-01-01 02:13:00
+Student_135,23,Biotechnology,Delhi,IIT Lucknow,135,2023-01-01 02:14:00
+Student_136,22,Electrical Engineering,Kolkata,IIT Ahmedabad,136,2023-01-01 02:15:00
+Student_137,19,Chemical Engineering,Hyderabad,IIT Bombay,137,2023-01-01 02:16:00
+Student_138,24,Civil Engineering,Chennai,IIT Hyderabad,138,2023-01-01 02:17:00
+Student_139,25,Mechanical Engineering,Delhi,IIT Bombay,139,2023-01-01 02:18:00
+Student_140,18,Civil Engineering,Ahmedabad,IIT Bombay,140,2023-01-01 02:19:00
+Student_141,21,Electrical Engineering,Delhi,IIT Jaipur,141,2023-01-01 02:20:00
+Student_142,24,Chemical Engineering,Ahmedabad,IIT Delhi,142,2023-01-01 02:21:00
+Student_143,20,Civil Engineering,Lucknow,IIT Kolkata,143,2023-01-01 02:22:00
+Student_144,19,Computer Science,Kolkata,IIT Delhi,144,2023-01-01 02:23:00
+Student_145,19,Civil Engineering,Bangalore,IIT Bombay,145,2023-01-01 02:24:00
+Student_146,25,Civil Engineering,Kolkata,IIT Bombay,146,2023-01-01 02:25:00
+Student_147,25,Mechanical Engineering,Ahmedabad,IIT Delhi,147,2023-01-01 02:26:00
+Student_148,23,Computer Science,Delhi,IIT Chennai,148,2023-01-01 02:27:00
+Student_149,18,Mechanical Engineering,Chennai,IIT Bangalore,149,2023-01-01 02:28:00
+Student_150,18,Electrical Engineering,Chennai,IIT Delhi,150,2023-01-01 02:29:00
+Student_151,20,Electrical Engineering,Mumbai,IIT Hyderabad,151,2023-01-01 02:30:00
+Student_152,19,Biotechnology,Mumbai,IIT Ahmedabad,152,2023-01-01 02:31:00
+Student_153,23,Biotechnology,Mumbai,IIT Lucknow,153,2023-01-01 02:32:00
+Student_154,21,Electrical Engineering,Bangalore,IIT Pune,154,2023-01-01 02:33:00
+Student_155,19,Civil Engineering,Chennai,IIT Ahmedabad,155,2023-01-01 02:34:00
+Student_156,20,Computer Science,Hyderabad,IIT Chennai,156,2023-01-01 02:35:00
+Student_157,23,Civil Engineering,Ahmedabad,IIT Ahmedabad,157,2023-01-01 02:36:00
+Student_158,23,Electrical Engineering,Lucknow,IIT Delhi,158,2023-01-01 02:37:00
+Student_159,19,Chemical Engineering,Lucknow,IIT Ahmedabad,159,2023-01-01 02:38:00
+Student_160,20,Civil Engineering,Bangalore,IIT Bangalore,160,2023-01-01 02:39:00
+Student_161,21,Mechanical Engineering,Jaipur,IIT Hyderabad,161,2023-01-01 02:40:00
+Student_162,21,Electrical Engineering,Ahmedabad,IIT Chennai,162,2023-01-01 02:41:00
+Student_163,24,Biotechnology,Mumbai,IIT Bangalore,163,2023-01-01 02:42:00
+Student_164,18,Civil Engineering,Delhi,IIT Delhi,164,2023-01-01 02:43:00
+Student_165,20,Civil Engineering,Ahmedabad,IIT Jaipur,165,2023-01-01 02:44:00
+Student_166,24,Biotechnology,Bangalore,IIT Lucknow,166,2023-01-01 02:45:00
+Student_167,24,Mechanical Engineering,Chennai,IIT Delhi,167,2023-01-01 02:46:00
+Student_168,21,Civil Engineering,Chennai,IIT Jaipur,168,2023-01-01 02:47:00
+Student_169,18,Civil Engineering,Kolkata,IIT Bombay,169,2023-01-01 02:48:00
+Student_170,24,Biotechnology,Chennai,IIT Pune,170,2023-01-01 02:49:00
+Student_171,21,Mechanical Engineering,Ahmedabad,IIT Pune,171,2023-01-01 02:50:00
+Student_172,19,Electrical Engineering,Delhi,IIT Ahmedabad,172,2023-01-01 02:51:00
+Student_173,19,Chemical Engineering,Lucknow,IIT Bangalore,173,2023-01-01 02:52:00
+Student_174,25,Civil Engineering,Bangalore,IIT Kolkata,174,2023-01-01 02:53:00
+Student_175,24,Electrical Engineering,Hyderabad,IIT Pune,175,2023-01-01 02:54:00
+Student_176,23,Chemical Engineering,Bangalore,IIT Chennai,176,2023-01-01 02:55:00
+Student_177,25,Biotechnology,Delhi,IIT Pune,177,2023-01-01 02:56:00
+Student_178,21,Mechanical Engineering,Mumbai,IIT Pune,178,2023-01-01 02:57:00
+Student_179,25,Computer Science,Hyderabad,IIT Ahmedabad,179,2023-01-01 02:58:00
+Student_180,19,Biotechnology,Ahmedabad,IIT Jaipur,180,2023-01-01 02:59:00
+Student_181,20,Civil Engineering,Pune,IIT Delhi,181,2023-01-01 03:00:00
+Student_182,25,Electrical Engineering,Jaipur,IIT Kolkata,182,2023-01-01 03:01:00
+Student_183,22,Biotechnology,Mumbai,IIT Delhi,183,2023-01-01 03:02:00
+Student_184,22,Biotechnology,Mumbai,IIT Bombay,184,2023-01-01 03:03:00
+Student_185,22,Civil Engineering,Jaipur,IIT Lucknow,185,2023-01-01 03:04:00
+Student_186,24,Civil Engineering,Delhi,IIT Ahmedabad,186,2023-01-01 03:05:00
+Student_187,23,Mechanical Engineering,Hyderabad,IIT Lucknow,187,2023-01-01 03:06:00
+Student_188,19,Computer Science,Delhi,IIT Ahmedabad,188,2023-01-01 03:07:00
+Student_189,22,Chemical Engineering,Chennai,IIT Delhi,189,2023-01-01 03:08:00
+Student_190,21,Electrical Engineering,Delhi,IIT Kolkata,190,2023-01-01 03:09:00
+Student_191,22,Mechanical Engineering,Jaipur,IIT Bangalore,191,2023-01-01 03:10:00
+Student_192,21,Chemical Engineering,Delhi,IIT Kolkata,192,2023-01-01 03:11:00
+Student_193,24,Biotechnology,Ahmedabad,IIT Ahmedabad,193,2023-01-01 03:12:00
+Student_194,25,Mechanical Engineering,Lucknow,IIT Bangalore,194,2023-01-01 03:13:00
+Student_195,20,Computer Science,Delhi,IIT Kolkata,195,2023-01-01 03:14:00
+Student_196,24,Chemical Engineering,Pune,IIT Bangalore,196,2023-01-01 03:15:00
+Student_197,22,Mechanical Engineering,Pune,IIT Kolkata,197,2023-01-01 03:16:00
+Student_198,21,Civil Engineering,Pune,IIT Jaipur,198,2023-01-01 03:17:00
+Student_199,23,Civil Engineering,Mumbai,IIT Pune,199,2023-01-01 03:18:00
+Student_200,22,Electrical Engineering,Pune,IIT Bombay,200,2023-01-01 03:19:00
+Student_201,21,Computer Science,Chennai,IIT Pune,201,2023-01-01 03:20:00
+Student_202,24,Computer Science,Jaipur,IIT Delhi,202,2023-01-01 03:21:00
+Student_203,19,Biotechnology,Kolkata,IIT Bombay,203,2023-01-01 03:22:00
+Student_204,23,Computer Science,Delhi,IIT Lucknow,204,2023-01-01 03:23:00
+Student_205,18,Mechanical Engineering,Ahmedabad,IIT Hyderabad,205,2023-01-01 03:24:00
+Student_206,20,Chemical Engineering,Ahmedabad,IIT Hyderabad,206,2023-01-01 03:25:00
+Student_207,19,Civil Engineering,Pune,IIT Chennai,207,2023-01-01 03:26:00
+Student_208,24,Electrical Engineering,Chennai,IIT Kolkata,208,2023-01-01 03:27:00
+Student_209,24,Electrical Engineering,Pune,IIT Bangalore,209,2023-01-01 03:28:00
+Student_210,23,Electrical Engineering,Hyderabad,IIT Bangalore,210,2023-01-01 03:29:00
+Student_211,25,Mechanical Engineering,Kolkata,IIT Kolkata,211,2023-01-01 03:30:00
+Student_212,25,Civil Engineering,Hyderabad,IIT Hyderabad,212,2023-01-01 03:31:00
+Student_213,25,Electrical Engineering,Lucknow,IIT Bombay,213,2023-01-01 03:32:00
+Student_214,24,Computer Science,Hyderabad,IIT Delhi,214,2023-01-01 03:33:00
+Student_215,20,Mechanical Engineering,Mumbai,IIT Bangalore,215,2023-01-01 03:34:00
+Student_216,21,Chemical Engineering,Ahmedabad,IIT Lucknow,216,2023-01-01 03:35:00
+Student_217,19,Biotechnology,Jaipur,IIT Ahmedabad,217,2023-01-01 03:36:00
+Student_218,23,Civil Engineering,Pune,IIT Bombay,218,2023-01-01 03:37:00
+Student_219,24,Chemical Engineering,Pune,IIT Pune,219,2023-01-01 03:38:00
+Student_220,22,Biotechnology,Pune,IIT Hyderabad,220,2023-01-01 03:39:00
+Student_221,23,Mechanical Engineering,Mumbai,IIT Bombay,221,2023-01-01 03:40:00
+Student_222,18,Electrical Engineering,Chennai,IIT Bombay,222,2023-01-01 03:41:00
+Student_223,22,Biotechnology,Mumbai,IIT Bangalore,223,2023-01-01 03:42:00
+Student_224,19,Civil Engineering,Hyderabad,IIT Lucknow,224,2023-01-01 03:43:00
+Student_225,24,Chemical Engineering,Hyderabad,IIT Pune,225,2023-01-01 03:44:00
+Student_226,21,Mechanical Engineering,Lucknow,IIT Delhi,226,2023-01-01 03:45:00
+Student_227,19,Mechanical Engineering,Chennai,IIT Jaipur,227,2023-01-01 03:46:00
+Student_228,25,Mechanical Engineering,Ahmedabad,IIT Bombay,228,2023-01-01 03:47:00
+Student_229,18,Electrical Engineering,Chennai,IIT Delhi,229,2023-01-01 03:48:00
+Student_230,21,Chemical Engineering,Chennai,IIT Hyderabad,230,2023-01-01 03:49:00
+Student_231,21,Mechanical Engineering,Ahmedabad,IIT Ahmedabad,231,2023-01-01 03:50:00
+Student_232,24,Mechanical Engineering,Pune,IIT Chennai,232,2023-01-01 03:51:00
+Student_233,21,Computer Science,Ahmedabad,IIT Jaipur,233,2023-01-01 03:52:00
+Student_234,19,Computer Science,Pune,IIT Pune,234,2023-01-01 03:53:00
+Student_235,25,Computer Science,Kolkata,IIT Pune,235,2023-01-01 03:54:00
+Student_236,25,Civil Engineering,Delhi,IIT Delhi,236,2023-01-01 03:55:00
+Student_237,19,Electrical Engineering,Delhi,IIT Bangalore,237,2023-01-01 03:56:00
+Student_238,24,Electrical Engineering,Pune,IIT Lucknow,238,2023-01-01 03:57:00
+Student_239,19,Civil Engineering,Jaipur,IIT Kolkata,239,2023-01-01 03:58:00
+Student_240,18,Electrical Engineering,Hyderabad,IIT Pune,240,2023-01-01 03:59:00
+Student_241,21,Electrical Engineering,Ahmedabad,IIT Chennai,241,2023-01-01 04:00:00
+Student_242,23,Civil Engineering,Delhi,IIT Jaipur,242,2023-01-01 04:01:00
+Student_243,22,Chemical Engineering,Jaipur,IIT Hyderabad,243,2023-01-01 04:02:00
+Student_244,22,Civil Engineering,Jaipur,IIT Lucknow,244,2023-01-01 04:03:00
+Student_245,25,Chemical Engineering,Ahmedabad,IIT Ahmedabad,245,2023-01-01 04:04:00
+Student_246,21,Computer Science,Delhi,IIT Lucknow,246,2023-01-01 04:05:00
+Student_247,19,Electrical Engineering,Kolkata,IIT Hyderabad,247,2023-01-01 04:06:00
+Student_248,21,Mechanical Engineering,Mumbai,IIT Jaipur,248,2023-01-01 04:07:00
+Student_249,24,Computer Science,Delhi,IIT Kolkata,249,2023-01-01 04:08:00
+Student_250,22,Computer Science,Lucknow,IIT Chennai,250,2023-01-01 04:09:00
+Student_251,21,Biotechnology,Jaipur,IIT Ahmedabad,251,2023-01-01 04:10:00
+Student_252,21,Biotechnology,Hyderabad,IIT Delhi,252,2023-01-01 04:11:00
+Student_253,22,Biotechnology,Chennai,IIT Hyderabad,253,2023-01-01 04:12:00
+Student_254,23,Biotechnology,Pune,IIT Ahmedabad,254,2023-01-01 04:13:00
+Student_255,20,Electrical Engineering,Mumbai,IIT Jaipur,255,2023-01-01 04:14:00
+Student_256,23,Mechanical Engineering,Lucknow,IIT Bombay,256,2023-01-01 04:15:00
+Student_257,20,Civil Engineering,Bangalore,IIT Bangalore,257,2023-01-01 04:16:00
+Student_258,19,Electrical Engineering,Hyderabad,IIT Pune,258,2023-01-01 04:17:00
+Student_259,21,Electrical Engineering,Bangalore,IIT Hyderabad,259,2023-01-01 04:18:00
+Student_260,24,Mechanical Engineering,Lucknow,IIT Lucknow,260,2023-01-01 04:19:00
+Student_261,20,Biotechnology,Pune,IIT Delhi,261,2023-01-01 04:20:00
+Student_262,18,Chemical Engineering,Lucknow,IIT Chennai,262,2023-01-01 04:21:00
+Student_263,25,Civil Engineering,Ahmedabad,IIT Bombay,263,2023-01-01 04:22:00
+Student_264,21,Chemical Engineering,Bangalore,IIT Pune,264,2023-01-01 04:23:00
+Student_265,25,Chemical Engineering,Chennai,IIT Delhi,265,2023-01-01 04:24:00
+Student_266,22,Electrical Engineering,Lucknow,IIT Kolkata,266,2023-01-01 04:25:00
+Student_267,21,Mechanical Engineering,Ahmedabad,IIT Kolkata,267,2023-01-01 04:26:00
+Student_268,18,Electrical Engineering,Mumbai,IIT Chennai,268,2023-01-01 04:27:00
+Student_269,21,Mechanical Engineering,Pune,IIT Hyderabad,269,2023-01-01 04:28:00
+Student_270,22,Mechanical Engineering,Bangalore,IIT Ahmedabad,270,2023-01-01 04:29:00
+Student_271,18,Mechanical Engineering,Lucknow,IIT Jaipur,271,2023-01-01 04:30:00
+Student_272,18,Biotechnology,Bangalore,IIT Chennai,272,2023-01-01 04:31:00
+Student_273,18,Civil Engineering,Mumbai,IIT Bombay,273,2023-01-01 04:32:00
+Student_274,21,Computer Science,Mumbai,IIT Hyderabad,274,2023-01-01 04:33:00
+Student_275,23,Computer Science,Mumbai,IIT Chennai,275,2023-01-01 04:34:00
+Student_276,24,Electrical Engineering,Hyderabad,IIT Pune,276,2023-01-01 04:35:00
+Student_277,24,Electrical Engineering,Chennai,IIT Ahmedabad,277,2023-01-01 04:36:00
+Student_278,20,Biotechnology,Chennai,IIT Kolkata,278,2023-01-01 04:37:00
+Student_279,24,Computer Science,Kolkata,IIT Ahmedabad,279,2023-01-01 04:38:00
+Student_280,25,Computer Science,Lucknow,IIT Delhi,280,2023-01-01 04:39:00
+Student_281,24,Civil Engineering,Bangalore,IIT Bombay,281,2023-01-01 04:40:00
+Student_282,20,Chemical Engineering,Jaipur,IIT Bangalore,282,2023-01-01 04:41:00
+Student_283,19,Mechanical Engineering,Hyderabad,IIT Bangalore,283,2023-01-01 04:42:00
+Student_284,21,Computer Science,Bangalore,IIT Jaipur,284,2023-01-01 04:43:00
+Student_285,20,Biotechnology,Delhi,IIT Kolkata,285,2023-01-01 04:44:00
+Student_286,19,Chemical Engineering,Pune,IIT Bangalore,286,2023-01-01 04:45:00
+Student_287,18,Mechanical Engineering,Chennai,IIT Kolkata,287,2023-01-01 04:46:00
+Student_288,18,Biotechnology,Mumbai,IIT Pune,288,2023-01-01 04:47:00
+Student_289,19,Mechanical Engineering,Ahmedabad,IIT Bangalore,289,2023-01-01 04:48:00
+Student_290,25,Electrical Engineering,Jaipur,IIT Chennai,290,2023-01-01 04:49:00
+Student_291,20,Biotechnology,Kolkata,IIT Chennai,291,2023-01-01 04:50:00
+Student_292,22,Civil Engineering,Kolkata,IIT Bombay,292,2023-01-01 04:51:00
+Student_293,22,Chemical Engineering,Ahmedabad,IIT Jaipur,293,2023-01-01 04:52:00
+Student_294,25,Computer Science,Jaipur,IIT Lucknow,294,2023-01-01 04:53:00
+Student_295,22,Biotechnology,Mumbai,IIT Pune,295,2023-01-01 04:54:00
+Student_296,24,Biotechnology,Delhi,IIT Kolkata,296,2023-01-01 04:55:00
+Student_297,23,Civil Engineering,Mumbai,IIT Bombay,297,2023-01-01 04:56:00
+Student_298,22,Biotechnology,Mumbai,IIT Ahmedabad,298,2023-01-01 04:57:00
+Student_299,22,Biotechnology,Hyderabad,IIT Jaipur,299,2023-01-01 04:58:00
+Student_300,23,Civil Engineering,Ahmedabad,IIT Hyderabad,300,2023-01-01 04:59:00
+Student_301,19,Chemical Engineering,Chennai,IIT Hyderabad,301,2023-01-01 05:00:00
+Student_302,23,Electrical Engineering,Bangalore,IIT Chennai,302,2023-01-01 05:01:00
+Student_303,18,Chemical Engineering,Mumbai,IIT Lucknow,303,2023-01-01 05:02:00
+Student_304,20,Mechanical Engineering,Chennai,IIT Ahmedabad,304,2023-01-01 05:03:00
+Student_305,22,Mechanical Engineering,Pune,IIT Kolkata,305,2023-01-01 05:04:00
+Student_306,24,Electrical Engineering,Mumbai,IIT Bangalore,306,2023-01-01 05:05:00
+Student_307,18,Civil Engineering,Bangalore,IIT Chennai,307,2023-01-01 05:06:00
+Student_308,18,Biotechnology,Pune,IIT Ahmedabad,308,2023-01-01 05:07:00
+Student_309,21,Computer Science,Jaipur,IIT Kolkata,309,2023-01-01 05:08:00
+Student_310,22,Electrical Engineering,Jaipur,IIT Bangalore,310,2023-01-01 05:09:00
+Student_311,19,Biotechnology,Bangalore,IIT Lucknow,311,2023-01-01 05:10:00
+Student_312,19,Chemical Engineering,Jaipur,IIT Lucknow,312,2023-01-01 05:11:00
+Student_313,24,Civil Engineering,Ahmedabad,IIT Ahmedabad,313,2023-01-01 05:12:00
+Student_314,22,Computer Science,Kolkata,IIT Ahmedabad,314,2023-01-01 05:13:00
+Student_315,22,Chemical Engineering,Jaipur,IIT Jaipur,315,2023-01-01 05:14:00
+Student_316,23,Mechanical Engineering,Hyderabad,IIT Kolkata,316,2023-01-01 05:15:00
+Student_317,20,Computer Science,Jaipur,IIT Bangalore,317,2023-01-01 05:16:00
+Student_318,24,Mechanical Engineering,Pune,IIT Bombay,318,2023-01-01 05:17:00
+Student_319,24,Biotechnology,Lucknow,IIT Hyderabad,319,2023-01-01 05:18:00
+Student_320,18,Mechanical Engineering,Jaipur,IIT Bangalore,320,2023-01-01 05:19:00
+Student_321,21,Biotechnology,Chennai,IIT Pune,321,2023-01-01 05:20:00
+Student_322,18,Biotechnology,Hyderabad,IIT Lucknow,322,2023-01-01 05:21:00
+Student_323,21,Mechanical Engineering,Bangalore,IIT Kolkata,323,2023-01-01 05:22:00
+Student_324,19,Chemical Engineering,Pune,IIT Hyderabad,324,2023-01-01 05:23:00
+Student_325,25,Chemical Engineering,Delhi,IIT Hyderabad,325,2023-01-01 05:24:00
+Student_326,20,Civil Engineering,Delhi,IIT Kolkata,326,2023-01-01 05:25:00
+Student_327,24,Mechanical Engineering,Ahmedabad,IIT Kolkata,327,2023-01-01 05:26:00
+Student_328,23,Chemical Engineering,Chennai,IIT Delhi,328,2023-01-01 05:27:00
+Student_329,22,Computer Science,Pune,IIT Bombay,329,2023-01-01 05:28:00
+Student_330,22,Electrical Engineering,Kolkata,IIT Kolkata,330,2023-01-01 05:29:00
+Student_331,24,Biotechnology,Kolkata,IIT Bombay,331,2023-01-01 05:30:00
+Student_332,25,Mechanical Engineering,Lucknow,IIT Bangalore,332,2023-01-01 05:31:00
+Student_333,22,Mechanical Engineering,Mumbai,IIT Kolkata,333,2023-01-01 05:32:00
+Student_334,25,Chemical Engineering,Bangalore,IIT Bombay,334,2023-01-01 05:33:00
+Student_335,19,Chemical Engineering,Chennai,IIT Chennai,335,2023-01-01 05:34:00
+Student_336,18,Computer Science,Hyderabad,IIT Delhi,336,2023-01-01 05:35:00
+Student_337,25,Computer Science,Chennai,IIT Bombay,337,2023-01-01 05:36:00
+Student_338,23,Civil Engineering,Bangalore,IIT Ahmedabad,338,2023-01-01 05:37:00
+Student_339,24,Biotechnology,Bangalore,IIT Lucknow,339,2023-01-01 05:38:00
+Student_340,20,Civil Engineering,Ahmedabad,IIT Jaipur,340,2023-01-01 05:39:00
+Student_341,18,Electrical Engineering,Bangalore,IIT Bangalore,341,2023-01-01 05:40:00
+Student_342,25,Biotechnology,Mumbai,IIT Jaipur,342,2023-01-01 05:41:00
+Student_343,18,Chemical Engineering,Kolkata,IIT Bangalore,343,2023-01-01 05:42:00
+Student_344,23,Chemical Engineering,Delhi,IIT Delhi,344,2023-01-01 05:43:00
+Student_345,20,Mechanical Engineering,Hyderabad,IIT Ahmedabad,345,2023-01-01 05:44:00
+Student_346,23,Biotechnology,Ahmedabad,IIT Ahmedabad,346,2023-01-01 05:45:00
+Student_347,25,Electrical Engineering,Pune,IIT Jaipur,347,2023-01-01 05:46:00
+Student_348,20,Computer Science,Lucknow,IIT Bangalore,348,2023-01-01 05:47:00
+Student_349,18,Mechanical Engineering,Delhi,IIT Hyderabad,349,2023-01-01 05:48:00
+Student_350,25,Chemical Engineering,Hyderabad,IIT Pune,350,2023-01-01 05:49:00
+Student_351,20,Biotechnology,Chennai,IIT Bangalore,351,2023-01-01 05:50:00
+Student_352,25,Chemical Engineering,Mumbai,IIT Jaipur,352,2023-01-01 05:51:00
+Student_353,19,Chemical Engineering,Chennai,IIT Bombay,353,2023-01-01 05:52:00
+Student_354,19,Computer Science,Kolkata,IIT Lucknow,354,2023-01-01 05:53:00
+Student_355,23,Chemical Engineering,Pune,IIT Chennai,355,2023-01-01 05:54:00
+Student_356,24,Chemical Engineering,Chennai,IIT Delhi,356,2023-01-01 05:55:00
+Student_357,20,Mechanical Engineering,Mumbai,IIT Bangalore,357,2023-01-01 05:56:00
+Student_358,20,Computer Science,Chennai,IIT Lucknow,358,2023-01-01 05:57:00
+Student_359,21,Computer Science,Kolkata,IIT Bombay,359,2023-01-01 05:58:00
+Student_360,22,Civil Engineering,Mumbai,IIT Lucknow,360,2023-01-01 05:59:00
+Student_361,20,Mechanical Engineering,Delhi,IIT Kolkata,361,2023-01-01 06:00:00
+Student_362,18,Civil Engineering,Chennai,IIT Lucknow,362,2023-01-01 06:01:00
+Student_363,22,Biotechnology,Ahmedabad,IIT Lucknow,363,2023-01-01 06:02:00
+Student_364,25,Civil Engineering,Bangalore,IIT Bombay,364,2023-01-01 06:03:00
+Student_365,25,Mechanical Engineering,Hyderabad,IIT Kolkata,365,2023-01-01 06:04:00
+Student_366,19,Mechanical Engineering,Delhi,IIT Delhi,366,2023-01-01 06:05:00
+Student_367,18,Mechanical Engineering,Mumbai,IIT Bangalore,367,2023-01-01 06:06:00
+Student_368,24,Chemical Engineering,Mumbai,IIT Chennai,368,2023-01-01 06:07:00
+Student_369,25,Chemical Engineering,Pune,IIT Pune,369,2023-01-01 06:08:00
+Student_370,19,Computer Science,Jaipur,IIT Kolkata,370,2023-01-01 06:09:00
+Student_371,22,Computer Science,Jaipur,IIT Delhi,371,2023-01-01 06:10:00
+Student_372,19,Mechanical Engineering,Chennai,IIT Delhi,372,2023-01-01 06:11:00
+Student_373,25,Computer Science,Bangalore,IIT Jaipur,373,2023-01-01 06:12:00
+Student_374,22,Computer Science,Mumbai,IIT Kolkata,374,2023-01-01 06:13:00
+Student_375,23,Electrical Engineering,Jaipur,IIT Bangalore,375,2023-01-01 06:14:00
+Student_376,20,Electrical Engineering,Bangalore,IIT Hyderabad,376,2023-01-01 06:15:00
+Student_377,23,Computer Science,Pune,IIT Kolkata,377,2023-01-01 06:16:00
+Student_378,18,Electrical Engineering,Hyderabad,IIT Ahmedabad,378,2023-01-01 06:17:00
+Student_379,23,Electrical Engineering,Hyderabad,IIT Chennai,379,2023-01-01 06:18:00
+Student_380,21,Electrical Engineering,Kolkata,IIT Pune,380,2023-01-01 06:19:00
+Student_381,23,Chemical Engineering,Bangalore,IIT Kolkata,381,2023-01-01 06:20:00
+Student_382,18,Electrical Engineering,Lucknow,IIT Bombay,382,2023-01-01 06:21:00
+Student_383,24,Biotechnology,Bangalore,IIT Bangalore,383,2023-01-01 06:22:00
+Student_384,18,Computer Science,Chennai,IIT Jaipur,384,2023-01-01 06:23:00
+Student_385,18,Computer Science,Mumbai,IIT Delhi,385,2023-01-01 06:24:00
+Student_386,20,Electrical Engineering,Kolkata,IIT Bombay,386,2023-01-01 06:25:00
+Student_387,24,Civil Engineering,Lucknow,IIT Chennai,387,2023-01-01 06:26:00
+Student_388,21,Electrical Engineering,Chennai,IIT Jaipur,388,2023-01-01 06:27:00
+Student_389,21,Chemical Engineering,Kolkata,IIT Delhi,389,2023-01-01 06:28:00
+Student_390,20,Civil Engineering,Lucknow,IIT Chennai,390,2023-01-01 06:29:00
+Student_391,19,Civil Engineering,Kolkata,IIT Hyderabad,391,2023-01-01 06:30:00
+Student_392,25,Civil Engineering,Hyderabad,IIT Kolkata,392,2023-01-01 06:31:00
+Student_393,21,Biotechnology,Pune,IIT Kolkata,393,2023-01-01 06:32:00
+Student_394,19,Mechanical Engineering,Ahmedabad,IIT Jaipur,394,2023-01-01 06:33:00
+Student_395,23,Chemical Engineering,Mumbai,IIT Lucknow,395,2023-01-01 06:34:00
+Student_396,25,Electrical Engineering,Ahmedabad,IIT Bombay,396,2023-01-01 06:35:00
+Student_397,23,Civil Engineering,Delhi,IIT Jaipur,397,2023-01-01 06:36:00
+Student_398,18,Electrical Engineering,Kolkata,IIT Bombay,398,2023-01-01 06:37:00
+Student_399,24,Biotechnology,Kolkata,IIT Kolkata,399,2023-01-01 06:38:00
+Student_400,19,Biotechnology,Pune,IIT Lucknow,400,2023-01-01 06:39:00
+Student_401,25,Electrical Engineering,Bangalore,IIT Chennai,401,2023-01-01 06:40:00
+Student_402,25,Civil Engineering,Bangalore,IIT Lucknow,402,2023-01-01 06:41:00
+Student_403,22,Chemical Engineering,Delhi,IIT Chennai,403,2023-01-01 06:42:00
+Student_404,23,Electrical Engineering,Chennai,IIT Pune,404,2023-01-01 06:43:00
+Student_405,18,Electrical Engineering,Ahmedabad,IIT Bangalore,405,2023-01-01 06:44:00
+Student_406,23,Mechanical Engineering,Kolkata,IIT Bombay,406,2023-01-01 06:45:00
+Student_407,22,Chemical Engineering,Kolkata,IIT Bombay,407,2023-01-01 06:46:00
+Student_408,24,Mechanical Engineering,Kolkata,IIT Hyderabad,408,2023-01-01 06:47:00
+Student_409,23,Electrical Engineering,Bangalore,IIT Delhi,409,2023-01-01 06:48:00
+Student_410,23,Electrical Engineering,Mumbai,IIT Kolkata,410,2023-01-01 06:49:00
+Student_411,24,Civil Engineering,Delhi,IIT Delhi,411,2023-01-01 06:50:00
+Student_412,24,Chemical Engineering,Jaipur,IIT Bangalore,412,2023-01-01 06:51:00
+Student_413,20,Electrical Engineering,Hyderabad,IIT Bangalore,413,2023-01-01 06:52:00
+Student_414,21,Computer Science,Jaipur,IIT Bangalore,414,2023-01-01 06:53:00
+Student_415,25,Mechanical Engineering,Lucknow,IIT Ahmedabad,415,2023-01-01 06:54:00
+Student_416,23,Biotechnology,Delhi,IIT Kolkata,416,2023-01-01 06:55:00
+Student_417,22,Electrical Engineering,Chennai,IIT Jaipur,417,2023-01-01 06:56:00
+Student_418,23,Chemical Engineering,Bangalore,IIT Kolkata,418,2023-01-01 06:57:00
+Student_419,22,Electrical Engineering,Kolkata,IIT Chennai,419,2023-01-01 06:58:00
+Student_420,24,Civil Engineering,Jaipur,IIT Ahmedabad,420,2023-01-01 06:59:00
+Student_421,24,Civil Engineering,Delhi,IIT Bangalore,421,2023-01-01 07:00:00
+Student_422,20,Computer Science,Lucknow,IIT Lucknow,422,2023-01-01 07:01:00
+Student_423,19,Biotechnology,Hyderabad,IIT Lucknow,423,2023-01-01 07:02:00
+Student_424,19,Mechanical Engineering,Lucknow,IIT Bangalore,424,2023-01-01 07:03:00
+Student_425,24,Computer Science,Mumbai,IIT Bombay,425,2023-01-01 07:04:00
+Student_426,19,Mechanical Engineering,Pune,IIT Chennai,426,2023-01-01 07:05:00
+Student_427,19,Biotechnology,Pune,IIT Chennai,427,2023-01-01 07:06:00
+Student_428,22,Biotechnology,Pune,IIT Hyderabad,428,2023-01-01 07:07:00
+Student_429,20,Chemical Engineering,Jaipur,IIT Delhi,429,2023-01-01 07:08:00
+Student_430,20,Computer Science,Bangalore,IIT Jaipur,430,2023-01-01 07:09:00
+Student_431,24,Chemical Engineering,Hyderabad,IIT Pune,431,2023-01-01 07:10:00
+Student_432,24,Mechanical Engineering,Mumbai,IIT Lucknow,432,2023-01-01 07:11:00
+Student_433,20,Civil Engineering,Bangalore,IIT Pune,433,2023-01-01 07:12:00
+Student_434,18,Civil Engineering,Delhi,IIT Lucknow,434,2023-01-01 07:13:00
+Student_435,24,Mechanical Engineering,Hyderabad,IIT Jaipur,435,2023-01-01 07:14:00
+Student_436,25,Computer Science,Pune,IIT Lucknow,436,2023-01-01 07:15:00
+Student_437,19,Mechanical Engineering,Jaipur,IIT Pune,437,2023-01-01 07:16:00
+Student_438,24,Civil Engineering,Ahmedabad,IIT Bangalore,438,2023-01-01 07:17:00
+Student_439,21,Chemical Engineering,Chennai,IIT Bangalore,439,2023-01-01 07:18:00
+Student_440,22,Chemical Engineering,Bangalore,IIT Pune,440,2023-01-01 07:19:00
+Student_441,19,Computer Science,Pune,IIT Kolkata,441,2023-01-01 07:20:00
+Student_442,24,Chemical Engineering,Delhi,IIT Ahmedabad,442,2023-01-01 07:21:00
+Student_443,25,Electrical Engineering,Delhi,IIT Ahmedabad,443,2023-01-01 07:22:00
+Student_444,20,Mechanical Engineering,Delhi,IIT Bangalore,444,2023-01-01 07:23:00
+Student_445,18,Biotechnology,Bangalore,IIT Lucknow,445,2023-01-01 07:24:00
+Student_446,21,Computer Science,Mumbai,IIT Kolkata,446,2023-01-01 07:25:00
+Student_447,25,Biotechnology,Delhi,IIT Pune,447,2023-01-01 07:26:00
+Student_448,23,Mechanical Engineering,Delhi,IIT Bombay,448,2023-01-01 07:27:00
+Student_449,21,Electrical Engineering,Pune,IIT Ahmedabad,449,2023-01-01 07:28:00
+Student_450,22,Electrical Engineering,Mumbai,IIT Pune,450,2023-01-01 07:29:00
+Student_451,23,Chemical Engineering,Chennai,IIT Delhi,451,2023-01-01 07:30:00
+Student_452,19,Mechanical Engineering,Lucknow,IIT Kolkata,452,2023-01-01 07:31:00
+Student_453,21,Biotechnology,Chennai,IIT Kolkata,453,2023-01-01 07:32:00
+Student_454,20,Electrical Engineering,Ahmedabad,IIT Hyderabad,454,2023-01-01 07:33:00
+Student_455,25,Biotechnology,Chennai,IIT Ahmedabad,455,2023-01-01 07:34:00
+Student_456,24,Chemical Engineering,Bangalore,IIT Delhi,456,2023-01-01 07:35:00
+Student_457,24,Mechanical Engineering,Jaipur,IIT Pune,457,2023-01-01 07:36:00
+Student_458,21,Biotechnology,Chennai,IIT Chennai,458,2023-01-01 07:37:00
+Student_459,24,Mechanical Engineering,Chennai,IIT Kolkata,459,2023-01-01 07:38:00
+Student_460,22,Computer Science,Pune,IIT Ahmedabad,460,2023-01-01 07:39:00
+Student_461,19,Civil Engineering,Bangalore,IIT Chennai,461,2023-01-01 07:40:00
+Student_462,21,Biotechnology,Bangalore,IIT Chennai,462,2023-01-01 07:41:00
+Student_463,25,Electrical Engineering,Delhi,IIT Kolkata,463,2023-01-01 07:42:00
+Student_464,24,Civil Engineering,Jaipur,IIT Pune,464,2023-01-01 07:43:00
+Student_465,21,Biotechnology,Kolkata,IIT Jaipur,465,2023-01-01 07:44:00
+Student_466,22,Civil Engineering,Hyderabad,IIT Chennai,466,2023-01-01 07:45:00
+Student_467,18,Computer Science,Pune,IIT Chennai,467,2023-01-01 07:46:00
+Student_468,24,Electrical Engineering,Kolkata,IIT Bombay,468,2023-01-01 07:47:00
+Student_469,18,Civil Engineering,Delhi,IIT Ahmedabad,469,2023-01-01 07:48:00
+Student_470,21,Biotechnology,Chennai,IIT Bangalore,470,2023-01-01 07:49:00
+Student_471,19,Electrical Engineering,Chennai,IIT Bombay,471,2023-01-01 07:50:00
+Student_472,21,Computer Science,Mumbai,IIT Kolkata,472,2023-01-01 07:51:00
+Student_473,18,Electrical Engineering,Delhi,IIT Lucknow,473,2023-01-01 07:52:00
+Student_474,21,Computer Science,Pune,IIT Hyderabad,474,2023-01-01 07:53:00
+Student_475,18,Chemical Engineering,Lucknow,IIT Kolkata,475,2023-01-01 07:54:00
+Student_476,19,Chemical Engineering,Bangalore,IIT Hyderabad,476,2023-01-01 07:55:00
+Student_477,21,Civil Engineering,Kolkata,IIT Pune,477,2023-01-01 07:56:00
+Student_478,18,Civil Engineering,Hyderabad,IIT Kolkata,478,2023-01-01 07:57:00
+Student_479,18,Chemical Engineering,Ahmedabad,IIT Bombay,479,2023-01-01 07:58:00
+Student_480,23,Biotechnology,Chennai,IIT Chennai,480,2023-01-01 07:59:00
+Student_481,25,Biotechnology,Bangalore,IIT Lucknow,481,2023-01-01 08:00:00
+Student_482,19,Mechanical Engineering,Delhi,IIT Delhi,482,2023-01-01 08:01:00
+Student_483,22,Computer Science,Bangalore,IIT Lucknow,483,2023-01-01 08:02:00
+Student_484,20,Civil Engineering,Hyderabad,IIT Lucknow,484,2023-01-01 08:03:00
+Student_485,23,Electrical Engineering,Kolkata,IIT Jaipur,485,2023-01-01 08:04:00
+Student_486,19,Chemical Engineering,Delhi,IIT Pune,486,2023-01-01 08:05:00
+Student_487,19,Chemical Engineering,Pune,IIT Pune,487,2023-01-01 08:06:00
+Student_488,20,Civil Engineering,Jaipur,IIT Chennai,488,2023-01-01 08:07:00
+Student_489,20,Civil Engineering,Ahmedabad,IIT Kolkata,489,2023-01-01 08:08:00
+Student_490,19,Chemical Engineering,Jaipur,IIT Chennai,490,2023-01-01 08:09:00
+Student_491,21,Civil Engineering,Hyderabad,IIT Chennai,491,2023-01-01 08:10:00
+Student_492,25,Civil Engineering,Mumbai,IIT Pune,492,2023-01-01 08:11:00
+Student_493,18,Chemical Engineering,Kolkata,IIT Pune,493,2023-01-01 08:12:00
+Student_494,21,Civil Engineering,Hyderabad,IIT Ahmedabad,494,2023-01-01 08:13:00
+Student_495,25,Civil Engineering,Bangalore,IIT Hyderabad,495,2023-01-01 08:14:00
+Student_496,25,Mechanical Engineering,Chennai,IIT Pune,496,2023-01-01 08:15:00
+Student_497,20,Chemical Engineering,Delhi,IIT Hyderabad,497,2023-01-01 08:16:00
+Student_498,22,Chemical Engineering,Delhi,IIT Bombay,498,2023-01-01 08:17:00
+Student_499,20,Mechanical Engineering,Mumbai,IIT Chennai,499,2023-01-01 08:18:00
+Student_500,20,Civil Engineering,Kolkata,IIT Hyderabad,500,2023-01-01 08:19:00
+Student_501,24,Civil Engineering,Hyderabad,IIT Bangalore,501,2023-01-01 08:20:00
+Student_502,24,Computer Science,Chennai,IIT Jaipur,502,2023-01-01 08:21:00
+Student_503,21,Biotechnology,Chennai,IIT Bangalore,503,2023-01-01 08:22:00
+Student_504,24,Electrical Engineering,Lucknow,IIT Pune,504,2023-01-01 08:23:00
+Student_505,21,Chemical Engineering,Pune,IIT Bombay,505,2023-01-01 08:24:00
+Student_506,21,Civil Engineering,Lucknow,IIT Chennai,506,2023-01-01 08:25:00
+Student_507,21,Computer Science,Mumbai,IIT Bombay,507,2023-01-01 08:26:00
+Student_508,20,Electrical Engineering,Pune,IIT Lucknow,508,2023-01-01 08:27:00
+Student_509,21,Biotechnology,Delhi,IIT Jaipur,509,2023-01-01 08:28:00
+Student_510,24,Biotechnology,Ahmedabad,IIT Chennai,510,2023-01-01 08:29:00
+Student_511,25,Biotechnology,Hyderabad,IIT Bangalore,511,2023-01-01 08:30:00
+Student_512,23,Chemical Engineering,Chennai,IIT Pune,512,2023-01-01 08:31:00
+Student_513,24,Civil Engineering,Chennai,IIT Pune,513,2023-01-01 08:32:00
+Student_514,19,Electrical Engineering,Hyderabad,IIT Delhi,514,2023-01-01 08:33:00
+Student_515,20,Civil Engineering,Pune,IIT Jaipur,515,2023-01-01 08:34:00
+Student_516,21,Mechanical Engineering,Mumbai,IIT Bombay,516,2023-01-01 08:35:00
+Student_517,24,Electrical Engineering,Delhi,IIT Kolkata,517,2023-01-01 08:36:00
+Student_518,24,Chemical Engineering,Hyderabad,IIT Bombay,518,2023-01-01 08:37:00
+Student_519,20,Chemical Engineering,Pune,IIT Ahmedabad,519,2023-01-01 08:38:00
+Student_520,24,Chemical Engineering,Jaipur,IIT Delhi,520,2023-01-01 08:39:00
+Student_521,19,Chemical Engineering,Pune,IIT Bombay,521,2023-01-01 08:40:00
+Student_522,21,Civil Engineering,Lucknow,IIT Chennai,522,2023-01-01 08:41:00
+Student_523,22,Computer Science,Mumbai,IIT Hyderabad,523,2023-01-01 08:42:00
+Student_524,18,Chemical Engineering,Jaipur,IIT Chennai,524,2023-01-01 08:43:00
+Student_525,20,Civil Engineering,Ahmedabad,IIT Delhi,525,2023-01-01 08:44:00
+Student_526,25,Mechanical Engineering,Hyderabad,IIT Kolkata,526,2023-01-01 08:45:00
+Student_527,24,Biotechnology,Jaipur,IIT Chennai,527,2023-01-01 08:46:00
+Student_528,21,Chemical Engineering,Ahmedabad,IIT Delhi,528,2023-01-01 08:47:00
+Student_529,18,Electrical Engineering,Chennai,IIT Lucknow,529,2023-01-01 08:48:00
+Student_530,25,Computer Science,Jaipur,IIT Pune,530,2023-01-01 08:49:00
+Student_531,24,Mechanical Engineering,Kolkata,IIT Bombay,531,2023-01-01 08:50:00
+Student_532,19,Civil Engineering,Lucknow,IIT Bangalore,532,2023-01-01 08:51:00
+Student_533,20,Computer Science,Delhi,IIT Kolkata,533,2023-01-01 08:52:00
+Student_534,21,Computer Science,Ahmedabad,IIT Ahmedabad,534,2023-01-01 08:53:00
+Student_535,24,Computer Science,Chennai,IIT Ahmedabad,535,2023-01-01 08:54:00
+Student_536,23,Chemical Engineering,Hyderabad,IIT Jaipur,536,2023-01-01 08:55:00
+Student_537,18,Mechanical Engineering,Jaipur,IIT Jaipur,537,2023-01-01 08:56:00
+Student_538,18,Electrical Engineering,Pune,IIT Bombay,538,2023-01-01 08:57:00
+Student_539,22,Mechanical Engineering,Bangalore,IIT Chennai,539,2023-01-01 08:58:00
+Student_540,19,Chemical Engineering,Jaipur,IIT Kolkata,540,2023-01-01 08:59:00
+Student_541,19,Mechanical Engineering,Lucknow,IIT Delhi,541,2023-01-01 09:00:00
+Student_542,19,Chemical Engineering,Bangalore,IIT Pune,542,2023-01-01 09:01:00
+Student_543,18,Chemical Engineering,Hyderabad,IIT Chennai,543,2023-01-01 09:02:00
+Student_544,19,Chemical Engineering,Hyderabad,IIT Bangalore,544,2023-01-01 09:03:00
+Student_545,21,Civil Engineering,Hyderabad,IIT Lucknow,545,2023-01-01 09:04:00
+Student_546,25,Mechanical Engineering,Bangalore,IIT Ahmedabad,546,2023-01-01 09:05:00
+Student_547,23,Chemical Engineering,Hyderabad,IIT Hyderabad,547,2023-01-01 09:06:00
+Student_548,25,Mechanical Engineering,Bangalore,IIT Ahmedabad,548,2023-01-01 09:07:00
+Student_549,18,Computer Science,Chennai,IIT Ahmedabad,549,2023-01-01 09:08:00
+Student_550,23,Computer Science,Delhi,IIT Lucknow,550,2023-01-01 09:09:00
+Student_551,18,Mechanical Engineering,Delhi,IIT Bangalore,551,2023-01-01 09:10:00
+Student_552,22,Electrical Engineering,Jaipur,IIT Jaipur,552,2023-01-01 09:11:00
+Student_553,23,Civil Engineering,Delhi,IIT Kolkata,553,2023-01-01 09:12:00
+Student_554,24,Computer Science,Delhi,IIT Lucknow,554,2023-01-01 09:13:00
+Student_555,25,Mechanical Engineering,Bangalore,IIT Ahmedabad,555,2023-01-01 09:14:00
+Student_556,21,Biotechnology,Kolkata,IIT Ahmedabad,556,2023-01-01 09:15:00
+Student_557,18,Computer Science,Mumbai,IIT Ahmedabad,557,2023-01-01 09:16:00
+Student_558,19,Biotechnology,Chennai,IIT Chennai,558,2023-01-01 09:17:00
+Student_559,22,Computer Science,Hyderabad,IIT Jaipur,559,2023-01-01 09:18:00
+Student_560,20,Mechanical Engineering,Lucknow,IIT Bombay,560,2023-01-01 09:19:00
+Student_561,24,Civil Engineering,Ahmedabad,IIT Lucknow,561,2023-01-01 09:20:00
+Student_562,21,Mechanical Engineering,Chennai,IIT Jaipur,562,2023-01-01 09:21:00
+Student_563,25,Civil Engineering,Delhi,IIT Kolkata,563,2023-01-01 09:22:00
+Student_564,23,Electrical Engineering,Jaipur,IIT Bombay,564,2023-01-01 09:23:00
+Student_565,21,Biotechnology,Pune,IIT Kolkata,565,2023-01-01 09:24:00
+Student_566,18,Electrical Engineering,Delhi,IIT Ahmedabad,566,2023-01-01 09:25:00
+Student_567,19,Electrical Engineering,Bangalore,IIT Pune,567,2023-01-01 09:26:00
+Student_568,18,Mechanical Engineering,Jaipur,IIT Kolkata,568,2023-01-01 09:27:00
+Student_569,19,Chemical Engineering,Hyderabad,IIT Pune,569,2023-01-01 09:28:00
+Student_570,22,Mechanical Engineering,Kolkata,IIT Kolkata,570,2023-01-01 09:29:00
+Student_571,25,Biotechnology,Mumbai,IIT Bangalore,571,2023-01-01 09:30:00
+Student_572,23,Electrical Engineering,Hyderabad,IIT Bangalore,572,2023-01-01 09:31:00
+Student_573,21,Mechanical Engineering,Bangalore,IIT Bangalore,573,2023-01-01 09:32:00
+Student_574,22,Chemical Engineering,Mumbai,IIT Bangalore,574,2023-01-01 09:33:00
+Student_575,21,Biotechnology,Kolkata,IIT Bangalore,575,2023-01-01 09:34:00
+Student_576,21,Chemical Engineering,Bangalore,IIT Lucknow,576,2023-01-01 09:35:00
+Student_577,20,Biotechnology,Hyderabad,IIT Jaipur,577,2023-01-01 09:36:00
+Student_578,22,Biotechnology,Mumbai,IIT Pune,578,2023-01-01 09:37:00
+Student_579,21,Computer Science,Kolkata,IIT Bangalore,579,2023-01-01 09:38:00
+Student_580,24,Chemical Engineering,Kolkata,IIT Hyderabad,580,2023-01-01 09:39:00
+Student_581,24,Chemical Engineering,Jaipur,IIT Pune,581,2023-01-01 09:40:00
+Student_582,19,Electrical Engineering,Delhi,IIT Jaipur,582,2023-01-01 09:41:00
+Student_583,18,Computer Science,Mumbai,IIT Hyderabad,583,2023-01-01 09:42:00
+Student_584,24,Civil Engineering,Ahmedabad,IIT Kolkata,584,2023-01-01 09:43:00
+Student_585,23,Biotechnology,Kolkata,IIT Ahmedabad,585,2023-01-01 09:44:00
+Student_586,19,Electrical Engineering,Lucknow,IIT Hyderabad,586,2023-01-01 09:45:00
+Student_587,21,Computer Science,Mumbai,IIT Jaipur,587,2023-01-01 09:46:00
+Student_588,19,Biotechnology,Pune,IIT Hyderabad,588,2023-01-01 09:47:00
+Student_589,25,Biotechnology,Bangalore,IIT Lucknow,589,2023-01-01 09:48:00
+Student_590,22,Computer Science,Lucknow,IIT Bangalore,590,2023-01-01 09:49:00
+Student_591,23,Biotechnology,Chennai,IIT Chennai,591,2023-01-01 09:50:00
+Student_592,22,Chemical Engineering,Ahmedabad,IIT Bangalore,592,2023-01-01 09:51:00
+Student_593,18,Civil Engineering,Hyderabad,IIT Lucknow,593,2023-01-01 09:52:00
+Student_594,24,Mechanical Engineering,Pune,IIT Ahmedabad,594,2023-01-01 09:53:00
+Student_595,25,Electrical Engineering,Pune,IIT Ahmedabad,595,2023-01-01 09:54:00
+Student_596,23,Mechanical Engineering,Lucknow,IIT Kolkata,596,2023-01-01 09:55:00
+Student_597,24,Chemical Engineering,Kolkata,IIT Jaipur,597,2023-01-01 09:56:00
+Student_598,22,Biotechnology,Lucknow,IIT Hyderabad,598,2023-01-01 09:57:00
+Student_599,21,Civil Engineering,Hyderabad,IIT Ahmedabad,599,2023-01-01 09:58:00
+Student_600,20,Chemical Engineering,Bangalore,IIT Lucknow,600,2023-01-01 09:59:00
+Student_601,25,Mechanical Engineering,Ahmedabad,IIT Kolkata,601,2023-01-01 10:00:00
+Student_602,22,Civil Engineering,Jaipur,IIT Bombay,602,2023-01-01 10:01:00
+Student_603,21,Mechanical Engineering,Pune,IIT Delhi,603,2023-01-01 10:02:00
+Student_604,18,Electrical Engineering,Lucknow,IIT Delhi,604,2023-01-01 10:03:00
+Student_605,22,Computer Science,Hyderabad,IIT Bangalore,605,2023-01-01 10:04:00
+Student_606,20,Biotechnology,Chennai,IIT Lucknow,606,2023-01-01 10:05:00
+Student_607,22,Computer Science,Mumbai,IIT Bombay,607,2023-01-01 10:06:00
+Student_608,20,Mechanical Engineering,Hyderabad,IIT Kolkata,608,2023-01-01 10:07:00
+Student_609,25,Biotechnology,Chennai,IIT Chennai,609,2023-01-01 10:08:00
+Student_610,19,Chemical Engineering,Kolkata,IIT Delhi,610,2023-01-01 10:09:00
+Student_611,18,Electrical Engineering,Mumbai,IIT Lucknow,611,2023-01-01 10:10:00
+Student_612,22,Mechanical Engineering,Hyderabad,IIT Kolkata,612,2023-01-01 10:11:00
+Student_613,21,Mechanical Engineering,Bangalore,IIT Bangalore,613,2023-01-01 10:12:00
+Student_614,25,Biotechnology,Bangalore,IIT Lucknow,614,2023-01-01 10:13:00
+Student_615,24,Chemical Engineering,Hyderabad,IIT Bombay,615,2023-01-01 10:14:00
+Student_616,18,Civil Engineering,Lucknow,IIT Bombay,616,2023-01-01 10:15:00
+Student_617,20,Chemical Engineering,Delhi,IIT Kolkata,617,2023-01-01 10:16:00
+Student_618,22,Mechanical Engineering,Lucknow,IIT Hyderabad,618,2023-01-01 10:17:00
+Student_619,18,Mechanical Engineering,Bangalore,IIT Chennai,619,2023-01-01 10:18:00
+Student_620,22,Civil Engineering,Pune,IIT Lucknow,620,2023-01-01 10:19:00
+Student_621,23,Mechanical Engineering,Delhi,IIT Pune,621,2023-01-01 10:20:00
+Student_622,20,Computer Science,Jaipur,IIT Ahmedabad,622,2023-01-01 10:21:00
+Student_623,24,Chemical Engineering,Pune,IIT Kolkata,623,2023-01-01 10:22:00
+Student_624,20,Chemical Engineering,Kolkata,IIT Bangalore,624,2023-01-01 10:23:00
+Student_625,19,Chemical Engineering,Delhi,IIT Bangalore,625,2023-01-01 10:24:00
+Student_626,25,Mechanical Engineering,Delhi,IIT Kolkata,626,2023-01-01 10:25:00
+Student_627,22,Mechanical Engineering,Delhi,IIT Chennai,627,2023-01-01 10:26:00
+Student_628,19,Computer Science,Mumbai,IIT Lucknow,628,2023-01-01 10:27:00
+Student_629,18,Electrical Engineering,Delhi,IIT Kolkata,629,2023-01-01 10:28:00
+Student_630,24,Civil Engineering,Mumbai,IIT Chennai,630,2023-01-01 10:29:00
+Student_631,20,Computer Science,Kolkata,IIT Lucknow,631,2023-01-01 10:30:00
+Student_632,21,Computer Science,Hyderabad,IIT Kolkata,632,2023-01-01 10:31:00
+Student_633,18,Computer Science,Lucknow,IIT Kolkata,633,2023-01-01 10:32:00
+Student_634,20,Chemical Engineering,Ahmedabad,IIT Kolkata,634,2023-01-01 10:33:00
+Student_635,24,Chemical Engineering,Mumbai,IIT Pune,635,2023-01-01 10:34:00
+Student_636,20,Chemical Engineering,Bangalore,IIT Hyderabad,636,2023-01-01 10:35:00
+Student_637,20,Computer Science,Lucknow,IIT Pune,637,2023-01-01 10:36:00
+Student_638,22,Mechanical Engineering,Ahmedabad,IIT Hyderabad,638,2023-01-01 10:37:00
+Student_639,24,Biotechnology,Mumbai,IIT Bombay,639,2023-01-01 10:38:00
+Student_640,19,Computer Science,Ahmedabad,IIT Bangalore,640,2023-01-01 10:39:00
+Student_641,20,Chemical Engineering,Bangalore,IIT Delhi,641,2023-01-01 10:40:00
+Student_642,23,Computer Science,Chennai,IIT Bangalore,642,2023-01-01 10:41:00
+Student_643,23,Chemical Engineering,Delhi,IIT Delhi,643,2023-01-01 10:42:00
+Student_644,23,Electrical Engineering,Ahmedabad,IIT Pune,644,2023-01-01 10:43:00
+Student_645,23,Biotechnology,Pune,IIT Pune,645,2023-01-01 10:44:00
+Student_646,19,Computer Science,Chennai,IIT Pune,646,2023-01-01 10:45:00
+Student_647,24,Civil Engineering,Jaipur,IIT Pune,647,2023-01-01 10:46:00
+Student_648,24,Chemical Engineering,Delhi,IIT Hyderabad,648,2023-01-01 10:47:00
+Student_649,20,Biotechnology,Kolkata,IIT Jaipur,649,2023-01-01 10:48:00
+Student_650,23,Electrical Engineering,Delhi,IIT Bangalore,650,2023-01-01 10:49:00
+Student_651,20,Computer Science,Kolkata,IIT Lucknow,651,2023-01-01 10:50:00
+Student_652,19,Biotechnology,Delhi,IIT Jaipur,652,2023-01-01 10:51:00
+Student_653,22,Chemical Engineering,Ahmedabad,IIT Chennai,653,2023-01-01 10:52:00
+Student_654,25,Civil Engineering,Lucknow,IIT Chennai,654,2023-01-01 10:53:00
+Student_655,25,Chemical Engineering,Chennai,IIT Hyderabad,655,2023-01-01 10:54:00
+Student_656,18,Biotechnology,Kolkata,IIT Chennai,656,2023-01-01 10:55:00
+Student_657,23,Chemical Engineering,Mumbai,IIT Hyderabad,657,2023-01-01 10:56:00
+Student_658,19,Civil Engineering,Delhi,IIT Chennai,658,2023-01-01 10:57:00
+Student_659,24,Chemical Engineering,Hyderabad,IIT Jaipur,659,2023-01-01 10:58:00
+Student_660,18,Chemical Engineering,Jaipur,IIT Delhi,660,2023-01-01 10:59:00
+Student_661,18,Chemical Engineering,Chennai,IIT Bombay,661,2023-01-01 11:00:00
+Student_662,23,Electrical Engineering,Chennai,IIT Ahmedabad,662,2023-01-01 11:01:00
+Student_663,25,Civil Engineering,Kolkata,IIT Bombay,663,2023-01-01 11:02:00
+Student_664,21,Biotechnology,Pune,IIT Chennai,664,2023-01-01 11:03:00
+Student_665,20,Computer Science,Pune,IIT Jaipur,665,2023-01-01 11:04:00
+Student_666,20,Civil Engineering,Ahmedabad,IIT Lucknow,666,2023-01-01 11:05:00
+Student_667,25,Electrical Engineering,Mumbai,IIT Pune,667,2023-01-01 11:06:00
+Student_668,20,Chemical Engineering,Pune,IIT Chennai,668,2023-01-01 11:07:00
+Student_669,23,Civil Engineering,Lucknow,IIT Bangalore,669,2023-01-01 11:08:00
+Student_670,24,Civil Engineering,Hyderabad,IIT Chennai,670,2023-01-01 11:09:00
+Student_671,24,Mechanical Engineering,Hyderabad,IIT Hyderabad,671,2023-01-01 11:10:00
+Student_672,22,Electrical Engineering,Jaipur,IIT Lucknow,672,2023-01-01 11:11:00
+Student_673,23,Civil Engineering,Hyderabad,IIT Lucknow,673,2023-01-01 11:12:00
+Student_674,23,Chemical Engineering,Bangalore,IIT Chennai,674,2023-01-01 11:13:00
+Student_675,21,Electrical Engineering,Ahmedabad,IIT Jaipur,675,2023-01-01 11:14:00
+Student_676,20,Chemical Engineering,Lucknow,IIT Delhi,676,2023-01-01 11:15:00
+Student_677,25,Civil Engineering,Hyderabad,IIT Bangalore,677,2023-01-01 11:16:00
+Student_678,23,Chemical Engineering,Hyderabad,IIT Delhi,678,2023-01-01 11:17:00
+Student_679,25,Electrical Engineering,Ahmedabad,IIT Kolkata,679,2023-01-01 11:18:00
+Student_680,22,Chemical Engineering,Hyderabad,IIT Chennai,680,2023-01-01 11:19:00
+Student_681,24,Mechanical Engineering,Mumbai,IIT Bombay,681,2023-01-01 11:20:00
+Student_682,21,Electrical Engineering,Lucknow,IIT Bangalore,682,2023-01-01 11:21:00
+Student_683,25,Computer Science,Ahmedabad,IIT Jaipur,683,2023-01-01 11:22:00
+Student_684,22,Biotechnology,Pune,IIT Kolkata,684,2023-01-01 11:23:00
+Student_685,23,Biotechnology,Kolkata,IIT Bombay,685,2023-01-01 11:24:00
+Student_686,19,Computer Science,Chennai,IIT Bangalore,686,2023-01-01 11:25:00
+Student_687,22,Chemical Engineering,Jaipur,IIT Pune,687,2023-01-01 11:26:00
+Student_688,22,Chemical Engineering,Kolkata,IIT Pune,688,2023-01-01 11:27:00
+Student_689,23,Electrical Engineering,Delhi,IIT Delhi,689,2023-01-01 11:28:00
+Student_690,19,Chemical Engineering,Mumbai,IIT Lucknow,690,2023-01-01 11:29:00
+Student_691,23,Biotechnology,Lucknow,IIT Delhi,691,2023-01-01 11:30:00
+Student_692,21,Computer Science,Mumbai,IIT Delhi,692,2023-01-01 11:31:00
+Student_693,22,Computer Science,Lucknow,IIT Kolkata,693,2023-01-01 11:32:00
+Student_694,20,Chemical Engineering,Lucknow,IIT Jaipur,694,2023-01-01 11:33:00
+Student_695,21,Mechanical Engineering,Ahmedabad,IIT Bangalore,695,2023-01-01 11:34:00
+Student_696,20,Chemical Engineering,Hyderabad,IIT Bangalore,696,2023-01-01 11:35:00
+Student_697,20,Electrical Engineering,Ahmedabad,IIT Pune,697,2023-01-01 11:36:00
+Student_698,22,Electrical Engineering,Lucknow,IIT Ahmedabad,698,2023-01-01 11:37:00
+Student_699,21,Computer Science,Bangalore,IIT Kolkata,699,2023-01-01 11:38:00
+Student_700,20,Electrical Engineering,Lucknow,IIT Bombay,700,2023-01-01 11:39:00
+Student_701,23,Chemical Engineering,Pune,IIT Bangalore,701,2023-01-01 11:40:00
+Student_702,22,Computer Science,Lucknow,IIT Ahmedabad,702,2023-01-01 11:41:00
+Student_703,21,Computer Science,Bangalore,IIT Hyderabad,703,2023-01-01 11:42:00
+Student_704,18,Civil Engineering,Bangalore,IIT Bangalore,704,2023-01-01 11:43:00
+Student_705,25,Chemical Engineering,Mumbai,IIT Jaipur,705,2023-01-01 11:44:00
+Student_706,23,Electrical Engineering,Bangalore,IIT Pune,706,2023-01-01 11:45:00
+Student_707,23,Biotechnology,Pune,IIT Hyderabad,707,2023-01-01 11:46:00
+Student_708,22,Biotechnology,Hyderabad,IIT Delhi,708,2023-01-01 11:47:00
+Student_709,23,Civil Engineering,Ahmedabad,IIT Chennai,709,2023-01-01 11:48:00
+Student_710,22,Electrical Engineering,Ahmedabad,IIT Jaipur,710,2023-01-01 11:49:00
+Student_711,24,Computer Science,Bangalore,IIT Kolkata,711,2023-01-01 11:50:00
+Student_712,19,Chemical Engineering,Delhi,IIT Jaipur,712,2023-01-01 11:51:00
+Student_713,20,Biotechnology,Pune,IIT Bangalore,713,2023-01-01 11:52:00
+Student_714,24,Mechanical Engineering,Jaipur,IIT Hyderabad,714,2023-01-01 11:53:00
+Student_715,20,Biotechnology,Delhi,IIT Ahmedabad,715,2023-01-01 11:54:00
+Student_716,25,Mechanical Engineering,Kolkata,IIT Jaipur,716,2023-01-01 11:55:00
+Student_717,18,Mechanical Engineering,Kolkata,IIT Kolkata,717,2023-01-01 11:56:00
+Student_718,20,Biotechnology,Jaipur,IIT Lucknow,718,2023-01-01 11:57:00
+Student_719,20,Biotechnology,Mumbai,IIT Ahmedabad,719,2023-01-01 11:58:00
+Student_720,25,Chemical Engineering,Lucknow,IIT Kolkata,720,2023-01-01 11:59:00
+Student_721,21,Civil Engineering,Hyderabad,IIT Kolkata,721,2023-01-01 12:00:00
+Student_722,19,Computer Science,Jaipur,IIT Kolkata,722,2023-01-01 12:01:00
+Student_723,19,Chemical Engineering,Pune,IIT Bangalore,723,2023-01-01 12:02:00
+Student_724,18,Electrical Engineering,Hyderabad,IIT Hyderabad,724,2023-01-01 12:03:00
+Student_725,19,Chemical Engineering,Kolkata,IIT Kolkata,725,2023-01-01 12:04:00
+Student_726,19,Chemical Engineering,Hyderabad,IIT Jaipur,726,2023-01-01 12:05:00
+Student_727,21,Electrical Engineering,Pune,IIT Delhi,727,2023-01-01 12:06:00
+Student_728,21,Computer Science,Jaipur,IIT Bangalore,728,2023-01-01 12:07:00
+Student_729,21,Chemical Engineering,Lucknow,IIT Jaipur,729,2023-01-01 12:08:00
+Student_730,24,Chemical Engineering,Kolkata,IIT Ahmedabad,730,2023-01-01 12:09:00
+Student_731,25,Biotechnology,Lucknow,IIT Bombay,731,2023-01-01 12:10:00
+Student_732,23,Mechanical Engineering,Hyderabad,IIT Bombay,732,2023-01-01 12:11:00
+Student_733,21,Civil Engineering,Hyderabad,IIT Jaipur,733,2023-01-01 12:12:00
+Student_734,21,Computer Science,Bangalore,IIT Hyderabad,734,2023-01-01 12:13:00
+Student_735,25,Civil Engineering,Delhi,IIT Lucknow,735,2023-01-01 12:14:00
+Student_736,22,Biotechnology,Ahmedabad,IIT Kolkata,736,2023-01-01 12:15:00
+Student_737,23,Biotechnology,Ahmedabad,IIT Delhi,737,2023-01-01 12:16:00
+Student_738,19,Civil Engineering,Chennai,IIT Lucknow,738,2023-01-01 12:17:00
+Student_739,19,Electrical Engineering,Bangalore,IIT Kolkata,739,2023-01-01 12:18:00
+Student_740,21,Computer Science,Pune,IIT Ahmedabad,740,2023-01-01 12:19:00
+Student_741,20,Chemical Engineering,Chennai,IIT Bangalore,741,2023-01-01 12:20:00
+Student_742,19,Chemical Engineering,Chennai,IIT Chennai,742,2023-01-01 12:21:00
+Student_743,19,Mechanical Engineering,Hyderabad,IIT Hyderabad,743,2023-01-01 12:22:00
+Student_744,22,Chemical Engineering,Kolkata,IIT Kolkata,744,2023-01-01 12:23:00
+Student_745,24,Computer Science,Bangalore,IIT Pune,745,2023-01-01 12:24:00
+Student_746,19,Mechanical Engineering,Bangalore,IIT Jaipur,746,2023-01-01 12:25:00
+Student_747,21,Chemical Engineering,Pune,IIT Chennai,747,2023-01-01 12:26:00
+Student_748,20,Chemical Engineering,Bangalore,IIT Lucknow,748,2023-01-01 12:27:00
+Student_749,24,Mechanical Engineering,Hyderabad,IIT Delhi,749,2023-01-01 12:28:00
+Student_750,20,Electrical Engineering,Pune,IIT Jaipur,750,2023-01-01 12:29:00
+Student_751,24,Electrical Engineering,Mumbai,IIT Ahmedabad,751,2023-01-01 12:30:00
+Student_752,25,Chemical Engineering,Delhi,IIT Chennai,752,2023-01-01 12:31:00
+Student_753,19,Computer Science,Pune,IIT Hyderabad,753,2023-01-01 12:32:00
+Student_754,18,Computer Science,Lucknow,IIT Delhi,754,2023-01-01 12:33:00
+Student_755,25,Mechanical Engineering,Lucknow,IIT Ahmedabad,755,2023-01-01 12:34:00
+Student_756,24,Electrical Engineering,Hyderabad,IIT Delhi,756,2023-01-01 12:35:00
+Student_757,20,Civil Engineering,Hyderabad,IIT Bombay,757,2023-01-01 12:36:00
+Student_758,21,Electrical Engineering,Lucknow,IIT Bangalore,758,2023-01-01 12:37:00
+Student_759,20,Chemical Engineering,Lucknow,IIT Bangalore,759,2023-01-01 12:38:00
+Student_760,19,Computer Science,Ahmedabad,IIT Delhi,760,2023-01-01 12:39:00
+Student_761,22,Chemical Engineering,Pune,IIT Lucknow,761,2023-01-01 12:40:00
+Student_762,22,Chemical Engineering,Kolkata,IIT Bombay,762,2023-01-01 12:41:00
+Student_763,19,Electrical Engineering,Pune,IIT Bombay,763,2023-01-01 12:42:00
+Student_764,23,Mechanical Engineering,Ahmedabad,IIT Kolkata,764,2023-01-01 12:43:00
+Student_765,24,Computer Science,Ahmedabad,IIT Hyderabad,765,2023-01-01 12:44:00
+Student_766,21,Computer Science,Lucknow,IIT Bangalore,766,2023-01-01 12:45:00
+Student_767,21,Chemical Engineering,Hyderabad,IIT Pune,767,2023-01-01 12:46:00
+Student_768,23,Computer Science,Ahmedabad,IIT Kolkata,768,2023-01-01 12:47:00
+Student_769,20,Biotechnology,Chennai,IIT Lucknow,769,2023-01-01 12:48:00
+Student_770,24,Electrical Engineering,Ahmedabad,IIT Delhi,770,2023-01-01 12:49:00
+Student_771,25,Biotechnology,Ahmedabad,IIT Hyderabad,771,2023-01-01 12:50:00
+Student_772,22,Mechanical Engineering,Delhi,IIT Chennai,772,2023-01-01 12:51:00
+Student_773,20,Civil Engineering,Mumbai,IIT Kolkata,773,2023-01-01 12:52:00
+Student_774,25,Computer Science,Ahmedabad,IIT Jaipur,774,2023-01-01 12:53:00
+Student_775,24,Civil Engineering,Lucknow,IIT Lucknow,775,2023-01-01 12:54:00
+Student_776,21,Electrical Engineering,Mumbai,IIT Ahmedabad,776,2023-01-01 12:55:00
+Student_777,19,Civil Engineering,Ahmedabad,IIT Hyderabad,777,2023-01-01 12:56:00
+Student_778,25,Civil Engineering,Ahmedabad,IIT Jaipur,778,2023-01-01 12:57:00
+Student_779,24,Electrical Engineering,Lucknow,IIT Pune,779,2023-01-01 12:58:00
+Student_780,22,Electrical Engineering,Mumbai,IIT Hyderabad,780,2023-01-01 12:59:00
+Student_781,23,Mechanical Engineering,Delhi,IIT Bombay,781,2023-01-01 13:00:00
+Student_782,24,Mechanical Engineering,Chennai,IIT Lucknow,782,2023-01-01 13:01:00
+Student_783,21,Mechanical Engineering,Kolkata,IIT Bangalore,783,2023-01-01 13:02:00
+Student_784,19,Electrical Engineering,Chennai,IIT Pune,784,2023-01-01 13:03:00
+Student_785,25,Electrical Engineering,Chennai,IIT Kolkata,785,2023-01-01 13:04:00
+Student_786,24,Civil Engineering,Chennai,IIT Lucknow,786,2023-01-01 13:05:00
+Student_787,19,Computer Science,Jaipur,IIT Pune,787,2023-01-01 13:06:00
+Student_788,20,Computer Science,Mumbai,IIT Jaipur,788,2023-01-01 13:07:00
+Student_789,24,Biotechnology,Pune,IIT Hyderabad,789,2023-01-01 13:08:00
+Student_790,24,Biotechnology,Delhi,IIT Kolkata,790,2023-01-01 13:09:00
+Student_791,18,Biotechnology,Ahmedabad,IIT Lucknow,791,2023-01-01 13:10:00
+Student_792,20,Mechanical Engineering,Ahmedabad,IIT Jaipur,792,2023-01-01 13:11:00
+Student_793,19,Chemical Engineering,Chennai,IIT Bombay,793,2023-01-01 13:12:00
+Student_794,20,Computer Science,Delhi,IIT Chennai,794,2023-01-01 13:13:00
+Student_795,23,Civil Engineering,Hyderabad,IIT Hyderabad,795,2023-01-01 13:14:00
+Student_796,23,Biotechnology,Lucknow,IIT Pune,796,2023-01-01 13:15:00
+Student_797,22,Chemical Engineering,Bangalore,IIT Pune,797,2023-01-01 13:16:00
+Student_798,24,Computer Science,Delhi,IIT Bombay,798,2023-01-01 13:17:00
+Student_799,19,Mechanical Engineering,Hyderabad,IIT Ahmedabad,799,2023-01-01 13:18:00
+Student_800,19,Chemical Engineering,Ahmedabad,IIT Delhi,800,2023-01-01 13:19:00
+Student_801,19,Chemical Engineering,Lucknow,IIT Ahmedabad,801,2023-01-01 13:20:00
+Student_802,18,Electrical Engineering,Delhi,IIT Bangalore,802,2023-01-01 13:21:00
+Student_803,25,Electrical Engineering,Bangalore,IIT Pune,803,2023-01-01 13:22:00
+Student_804,22,Biotechnology,Bangalore,IIT Pune,804,2023-01-01 13:23:00
+Student_805,18,Chemical Engineering,Kolkata,IIT Bombay,805,2023-01-01 13:24:00
+Student_806,19,Computer Science,Ahmedabad,IIT Delhi,806,2023-01-01 13:25:00
+Student_807,24,Electrical Engineering,Ahmedabad,IIT Kolkata,807,2023-01-01 13:26:00
+Student_808,21,Civil Engineering,Lucknow,IIT Jaipur,808,2023-01-01 13:27:00
+Student_809,23,Electrical Engineering,Kolkata,IIT Bombay,809,2023-01-01 13:28:00
+Student_810,24,Chemical Engineering,Hyderabad,IIT Ahmedabad,810,2023-01-01 13:29:00
+Student_811,23,Chemical Engineering,Chennai,IIT Pune,811,2023-01-01 13:30:00
+Student_812,25,Biotechnology,Ahmedabad,IIT Chennai,812,2023-01-01 13:31:00
+Student_813,22,Electrical Engineering,Bangalore,IIT Hyderabad,813,2023-01-01 13:32:00
+Student_814,25,Mechanical Engineering,Mumbai,IIT Chennai,814,2023-01-01 13:33:00
+Student_815,25,Chemical Engineering,Ahmedabad,IIT Hyderabad,815,2023-01-01 13:34:00
+Student_816,18,Computer Science,Pune,IIT Jaipur,816,2023-01-01 13:35:00
+Student_817,20,Electrical Engineering,Kolkata,IIT Lucknow,817,2023-01-01 13:36:00
+Student_818,23,Chemical Engineering,Bangalore,IIT Bombay,818,2023-01-01 13:37:00
+Student_819,25,Civil Engineering,Pune,IIT Pune,819,2023-01-01 13:38:00
+Student_820,23,Computer Science,Hyderabad,IIT Lucknow,820,2023-01-01 13:39:00
+Student_821,21,Computer Science,Pune,IIT Bangalore,821,2023-01-01 13:40:00
+Student_822,19,Biotechnology,Jaipur,IIT Jaipur,822,2023-01-01 13:41:00
+Student_823,24,Chemical Engineering,Ahmedabad,IIT Hyderabad,823,2023-01-01 13:42:00
+Student_824,19,Civil Engineering,Mumbai,IIT Jaipur,824,2023-01-01 13:43:00
+Student_825,25,Biotechnology,Chennai,IIT Bombay,825,2023-01-01 13:44:00
+Student_826,21,Chemical Engineering,Ahmedabad,IIT Kolkata,826,2023-01-01 13:45:00
+Student_827,25,Biotechnology,Jaipur,IIT Ahmedabad,827,2023-01-01 13:46:00
+Student_828,19,Computer Science,Delhi,IIT Chennai,828,2023-01-01 13:47:00
+Student_829,24,Biotechnology,Kolkata,IIT Kolkata,829,2023-01-01 13:48:00
+Student_830,21,Mechanical Engineering,Pune,IIT Kolkata,830,2023-01-01 13:49:00
+Student_831,18,Biotechnology,Kolkata,IIT Ahmedabad,831,2023-01-01 13:50:00
+Student_832,25,Electrical Engineering,Kolkata,IIT Kolkata,832,2023-01-01 13:51:00
+Student_833,24,Biotechnology,Lucknow,IIT Lucknow,833,2023-01-01 13:52:00
+Student_834,22,Civil Engineering,Jaipur,IIT Chennai,834,2023-01-01 13:53:00
+Student_835,22,Civil Engineering,Lucknow,IIT Bangalore,835,2023-01-01 13:54:00
+Student_836,23,Computer Science,Kolkata,IIT Pune,836,2023-01-01 13:55:00
+Student_837,25,Mechanical Engineering,Delhi,IIT Hyderabad,837,2023-01-01 13:56:00
+Student_838,23,Electrical Engineering,Kolkata,IIT Bombay,838,2023-01-01 13:57:00
+Student_839,23,Electrical Engineering,Bangalore,IIT Pune,839,2023-01-01 13:58:00
+Student_840,19,Computer Science,Bangalore,IIT Lucknow,840,2023-01-01 13:59:00
+Student_841,18,Electrical Engineering,Bangalore,IIT Bombay,841,2023-01-01 14:00:00
+Student_842,24,Biotechnology,Kolkata,IIT Bangalore,842,2023-01-01 14:01:00
+Student_843,22,Civil Engineering,Pune,IIT Ahmedabad,843,2023-01-01 14:02:00
+Student_844,18,Electrical Engineering,Pune,IIT Bangalore,844,2023-01-01 14:03:00
+Student_845,19,Biotechnology,Delhi,IIT Pune,845,2023-01-01 14:04:00
+Student_846,22,Biotechnology,Ahmedabad,IIT Ahmedabad,846,2023-01-01 14:05:00
+Student_847,24,Computer Science,Lucknow,IIT Ahmedabad,847,2023-01-01 14:06:00
+Student_848,23,Civil Engineering,Delhi,IIT Bombay,848,2023-01-01 14:07:00
+Student_849,22,Electrical Engineering,Pune,IIT Ahmedabad,849,2023-01-01 14:08:00
+Student_850,21,Civil Engineering,Delhi,IIT Kolkata,850,2023-01-01 14:09:00
+Student_851,18,Computer Science,Delhi,IIT Chennai,851,2023-01-01 14:10:00
+Student_852,18,Mechanical Engineering,Ahmedabad,IIT Bombay,852,2023-01-01 14:11:00
+Student_853,18,Computer Science,Lucknow,IIT Bombay,853,2023-01-01 14:12:00
+Student_854,20,Chemical Engineering,Bangalore,IIT Pune,854,2023-01-01 14:13:00
+Student_855,19,Chemical Engineering,Bangalore,IIT Bombay,855,2023-01-01 14:14:00
+Student_856,20,Computer Science,Delhi,IIT Delhi,856,2023-01-01 14:15:00
+Student_857,19,Electrical Engineering,Delhi,IIT Pune,857,2023-01-01 14:16:00
+Student_858,24,Computer Science,Delhi,IIT Pune,858,2023-01-01 14:17:00
+Student_859,25,Chemical Engineering,Bangalore,IIT Jaipur,859,2023-01-01 14:18:00
+Student_860,19,Electrical Engineering,Chennai,IIT Kolkata,860,2023-01-01 14:19:00
+Student_861,20,Computer Science,Jaipur,IIT Bombay,861,2023-01-01 14:20:00
+Student_862,21,Computer Science,Kolkata,IIT Chennai,862,2023-01-01 14:21:00
+Student_863,23,Chemical Engineering,Lucknow,IIT Jaipur,863,2023-01-01 14:22:00
+Student_864,24,Mechanical Engineering,Hyderabad,IIT Lucknow,864,2023-01-01 14:23:00
+Student_865,19,Electrical Engineering,Lucknow,IIT Kolkata,865,2023-01-01 14:24:00
+Student_866,23,Biotechnology,Ahmedabad,IIT Chennai,866,2023-01-01 14:25:00
+Student_867,23,Computer Science,Mumbai,IIT Bombay,867,2023-01-01 14:26:00
+Student_868,20,Mechanical Engineering,Hyderabad,IIT Bangalore,868,2023-01-01 14:27:00
+Student_869,20,Computer Science,Pune,IIT Pune,869,2023-01-01 14:28:00
+Student_870,20,Mechanical Engineering,Ahmedabad,IIT Bangalore,870,2023-01-01 14:29:00
+Student_871,18,Electrical Engineering,Chennai,IIT Chennai,871,2023-01-01 14:30:00
+Student_872,21,Biotechnology,Delhi,IIT Jaipur,872,2023-01-01 14:31:00
+Student_873,25,Electrical Engineering,Ahmedabad,IIT Chennai,873,2023-01-01 14:32:00
+Student_874,21,Biotechnology,Delhi,IIT Lucknow,874,2023-01-01 14:33:00
+Student_875,21,Mechanical Engineering,Kolkata,IIT Delhi,875,2023-01-01 14:34:00
+Student_876,22,Civil Engineering,Jaipur,IIT Chennai,876,2023-01-01 14:35:00
+Student_877,18,Biotechnology,Chennai,IIT Hyderabad,877,2023-01-01 14:36:00
+Student_878,24,Computer Science,Kolkata,IIT Jaipur,878,2023-01-01 14:37:00
+Student_879,22,Electrical Engineering,Ahmedabad,IIT Bombay,879,2023-01-01 14:38:00
+Student_880,22,Biotechnology,Delhi,IIT Chennai,880,2023-01-01 14:39:00
+Student_881,24,Computer Science,Ahmedabad,IIT Hyderabad,881,2023-01-01 14:40:00
+Student_882,20,Mechanical Engineering,Chennai,IIT Jaipur,882,2023-01-01 14:41:00
+Student_883,19,Electrical Engineering,Pune,IIT Hyderabad,883,2023-01-01 14:42:00
+Student_884,19,Civil Engineering,Ahmedabad,IIT Bombay,884,2023-01-01 14:43:00
+Student_885,22,Computer Science,Mumbai,IIT Lucknow,885,2023-01-01 14:44:00
+Student_886,20,Mechanical Engineering,Bangalore,IIT Kolkata,886,2023-01-01 14:45:00
+Student_887,21,Chemical Engineering,Jaipur,IIT Hyderabad,887,2023-01-01 14:46:00
+Student_888,18,Biotechnology,Jaipur,IIT Hyderabad,888,2023-01-01 14:47:00
+Student_889,25,Chemical Engineering,Pune,IIT Lucknow,889,2023-01-01 14:48:00
+Student_890,23,Mechanical Engineering,Chennai,IIT Delhi,890,2023-01-01 14:49:00
+Student_891,18,Civil Engineering,Chennai,IIT Bangalore,891,2023-01-01 14:50:00
+Student_892,25,Electrical Engineering,Kolkata,IIT Lucknow,892,2023-01-01 14:51:00
+Student_893,18,Biotechnology,Hyderabad,IIT Lucknow,893,2023-01-01 14:52:00
+Student_894,25,Civil Engineering,Kolkata,IIT Bangalore,894,2023-01-01 14:53:00
+Student_895,20,Biotechnology,Kolkata,IIT Kolkata,895,2023-01-01 14:54:00
+Student_896,25,Biotechnology,Hyderabad,IIT Ahmedabad,896,2023-01-01 14:55:00
+Student_897,19,Biotechnology,Bangalore,IIT Lucknow,897,2023-01-01 14:56:00
+Student_898,18,Mechanical Engineering,Bangalore,IIT Delhi,898,2023-01-01 14:57:00
+Student_899,20,Mechanical Engineering,Bangalore,IIT Kolkata,899,2023-01-01 14:58:00
+Student_900,22,Chemical Engineering,Kolkata,IIT Chennai,900,2023-01-01 14:59:00
+Student_901,24,Civil Engineering,Pune,IIT Delhi,901,2023-01-01 15:00:00
+Student_902,22,Chemical Engineering,Chennai,IIT Ahmedabad,902,2023-01-01 15:01:00
+Student_903,22,Biotechnology,Ahmedabad,IIT Kolkata,903,2023-01-01 15:02:00
+Student_904,18,Civil Engineering,Jaipur,IIT Jaipur,904,2023-01-01 15:03:00
+Student_905,21,Civil Engineering,Ahmedabad,IIT Kolkata,905,2023-01-01 15:04:00
+Student_906,18,Computer Science,Kolkata,IIT Jaipur,906,2023-01-01 15:05:00
+Student_907,19,Mechanical Engineering,Mumbai,IIT Bombay,907,2023-01-01 15:06:00
+Student_908,25,Biotechnology,Kolkata,IIT Jaipur,908,2023-01-01 15:07:00
+Student_909,23,Chemical Engineering,Pune,IIT Jaipur,909,2023-01-01 15:08:00
+Student_910,25,Chemical Engineering,Pune,IIT Lucknow,910,2023-01-01 15:09:00
+Student_911,20,Chemical Engineering,Mumbai,IIT Lucknow,911,2023-01-01 15:10:00
+Student_912,23,Electrical Engineering,Ahmedabad,IIT Kolkata,912,2023-01-01 15:11:00
+Student_913,19,Electrical Engineering,Delhi,IIT Bangalore,913,2023-01-01 15:12:00
+Student_914,25,Biotechnology,Bangalore,IIT Pune,914,2023-01-01 15:13:00
+Student_915,23,Civil Engineering,Bangalore,IIT Pune,915,2023-01-01 15:14:00
+Student_916,22,Civil Engineering,Chennai,IIT Jaipur,916,2023-01-01 15:15:00
+Student_917,21,Computer Science,Chennai,IIT Jaipur,917,2023-01-01 15:16:00
+Student_918,22,Civil Engineering,Jaipur,IIT Lucknow,918,2023-01-01 15:17:00
+Student_919,19,Mechanical Engineering,Bangalore,IIT Jaipur,919,2023-01-01 15:18:00
+Student_920,20,Electrical Engineering,Delhi,IIT Chennai,920,2023-01-01 15:19:00
+Student_921,21,Computer Science,Mumbai,IIT Pune,921,2023-01-01 15:20:00
+Student_922,25,Computer Science,Lucknow,IIT Jaipur,922,2023-01-01 15:21:00
+Student_923,18,Electrical Engineering,Pune,IIT Lucknow,923,2023-01-01 15:22:00
+Student_924,20,Chemical Engineering,Ahmedabad,IIT Delhi,924,2023-01-01 15:23:00
+Student_925,22,Mechanical Engineering,Bangalore,IIT Pune,925,2023-01-01 15:24:00
+Student_926,23,Computer Science,Chennai,IIT Delhi,926,2023-01-01 15:25:00
+Student_927,19,Chemical Engineering,Delhi,IIT Ahmedabad,927,2023-01-01 15:26:00
+Student_928,22,Chemical Engineering,Chennai,IIT Bangalore,928,2023-01-01 15:27:00
+Student_929,18,Biotechnology,Pune,IIT Kolkata,929,2023-01-01 15:28:00
+Student_930,24,Biotechnology,Hyderabad,IIT Delhi,930,2023-01-01 15:29:00
+Student_931,24,Mechanical Engineering,Pune,IIT Kolkata,931,2023-01-01 15:30:00
+Student_932,25,Civil Engineering,Bangalore,IIT Kolkata,932,2023-01-01 15:31:00
+Student_933,21,Civil Engineering,Hyderabad,IIT Ahmedabad,933,2023-01-01 15:32:00
+Student_934,19,Electrical Engineering,Pune,IIT Chennai,934,2023-01-01 15:33:00
+Student_935,23,Mechanical Engineering,Pune,IIT Chennai,935,2023-01-01 15:34:00
+Student_936,21,Electrical Engineering,Pune,IIT Bangalore,936,2023-01-01 15:35:00
+Student_937,23,Electrical Engineering,Pune,IIT Bangalore,937,2023-01-01 15:36:00
+Student_938,19,Chemical Engineering,Lucknow,IIT Lucknow,938,2023-01-01 15:37:00
+Student_939,25,Biotechnology,Chennai,IIT Bangalore,939,2023-01-01 15:38:00
+Student_940,19,Biotechnology,Chennai,IIT Bangalore,940,2023-01-01 15:39:00
+Student_941,22,Mechanical Engineering,Delhi,IIT Delhi,941,2023-01-01 15:40:00
+Student_942,24,Mechanical Engineering,Chennai,IIT Ahmedabad,942,2023-01-01 15:41:00
+Student_943,23,Computer Science,Hyderabad,IIT Ahmedabad,943,2023-01-01 15:42:00
+Student_944,20,Electrical Engineering,Jaipur,IIT Bangalore,944,2023-01-01 15:43:00
+Student_945,25,Electrical Engineering,Delhi,IIT Jaipur,945,2023-01-01 15:44:00
+Student_946,22,Biotechnology,Delhi,IIT Bombay,946,2023-01-01 15:45:00
+Student_947,24,Biotechnology,Delhi,IIT Kolkata,947,2023-01-01 15:46:00
+Student_948,25,Civil Engineering,Bangalore,IIT Bangalore,948,2023-01-01 15:47:00
+Student_949,18,Computer Science,Bangalore,IIT Delhi,949,2023-01-01 15:48:00
+Student_950,24,Chemical Engineering,Delhi,IIT Ahmedabad,950,2023-01-01 15:49:00
+Student_951,19,Chemical Engineering,Lucknow,IIT Delhi,951,2023-01-01 15:50:00
+Student_952,21,Biotechnology,Ahmedabad,IIT Kolkata,952,2023-01-01 15:51:00
+Student_953,20,Chemical Engineering,Pune,IIT Ahmedabad,953,2023-01-01 15:52:00
+Student_954,23,Biotechnology,Bangalore,IIT Kolkata,954,2023-01-01 15:53:00
+Student_955,22,Electrical Engineering,Bangalore,IIT Delhi,955,2023-01-01 15:54:00
+Student_956,21,Biotechnology,Jaipur,IIT Chennai,956,2023-01-01 15:55:00
+Student_957,25,Biotechnology,Delhi,IIT Chennai,957,2023-01-01 15:56:00
+Student_958,24,Mechanical Engineering,Pune,IIT Bombay,958,2023-01-01 15:57:00
+Student_959,20,Mechanical Engineering,Bangalore,IIT Pune,959,2023-01-01 15:58:00
+Student_960,21,Electrical Engineering,Delhi,IIT Bangalore,960,2023-01-01 15:59:00
+Student_961,25,Civil Engineering,Delhi,IIT Chennai,961,2023-01-01 16:00:00
+Student_962,21,Computer Science,Chennai,IIT Bangalore,962,2023-01-01 16:01:00
+Student_963,21,Electrical Engineering,Lucknow,IIT Jaipur,963,2023-01-01 16:02:00
+Student_964,23,Biotechnology,Pune,IIT Chennai,964,2023-01-01 16:03:00
+Student_965,25,Chemical Engineering,Ahmedabad,IIT Ahmedabad,965,2023-01-01 16:04:00
+Student_966,18,Chemical Engineering,Lucknow,IIT Bangalore,966,2023-01-01 16:05:00
+Student_967,22,Electrical Engineering,Jaipur,IIT Jaipur,967,2023-01-01 16:06:00
+Student_968,19,Mechanical Engineering,Pune,IIT Bangalore,968,2023-01-01 16:07:00
+Student_969,19,Computer Science,Pune,IIT Jaipur,969,2023-01-01 16:08:00
+Student_970,24,Civil Engineering,Chennai,IIT Lucknow,970,2023-01-01 16:09:00
+Student_971,23,Electrical Engineering,Chennai,IIT Pune,971,2023-01-01 16:10:00
+Student_972,20,Chemical Engineering,Mumbai,IIT Pune,972,2023-01-01 16:11:00
+Student_973,20,Computer Science,Delhi,IIT Jaipur,973,2023-01-01 16:12:00
+Student_974,18,Electrical Engineering,Delhi,IIT Bombay,974,2023-01-01 16:13:00
+Student_975,23,Mechanical Engineering,Hyderabad,IIT Delhi,975,2023-01-01 16:14:00
+Student_976,18,Electrical Engineering,Bangalore,IIT Chennai,976,2023-01-01 16:15:00
+Student_977,24,Biotechnology,Jaipur,IIT Lucknow,977,2023-01-01 16:16:00
+Student_978,23,Civil Engineering,Hyderabad,IIT Kolkata,978,2023-01-01 16:17:00
+Student_979,18,Chemical Engineering,Hyderabad,IIT Lucknow,979,2023-01-01 16:18:00
+Student_980,18,Civil Engineering,Mumbai,IIT Kolkata,980,2023-01-01 16:19:00
+Student_981,20,Electrical Engineering,Delhi,IIT Lucknow,981,2023-01-01 16:20:00
+Student_982,20,Mechanical Engineering,Ahmedabad,IIT Ahmedabad,982,2023-01-01 16:21:00
+Student_983,25,Mechanical Engineering,Jaipur,IIT Kolkata,983,2023-01-01 16:22:00
+Student_984,25,Mechanical Engineering,Ahmedabad,IIT Jaipur,984,2023-01-01 16:23:00
+Student_985,22,Civil Engineering,Jaipur,IIT Chennai,985,2023-01-01 16:24:00
+Student_986,24,Biotechnology,Chennai,IIT Kolkata,986,2023-01-01 16:25:00
+Student_987,22,Biotechnology,Mumbai,IIT Hyderabad,987,2023-01-01 16:26:00
+Student_988,25,Mechanical Engineering,Kolkata,IIT Kolkata,988,2023-01-01 16:27:00
+Student_989,20,Electrical Engineering,Pune,IIT Hyderabad,989,2023-01-01 16:28:00
+Student_990,20,Chemical Engineering,Hyderabad,IIT Delhi,990,2023-01-01 16:29:00
+Student_991,22,Chemical Engineering,Jaipur,IIT Bangalore,991,2023-01-01 16:30:00
+Student_992,20,Biotechnology,Pune,IIT Delhi,992,2023-01-01 16:31:00
+Student_993,25,Electrical Engineering,Kolkata,IIT Bangalore,993,2023-01-01 16:32:00
+Student_994,19,Computer Science,Jaipur,IIT Bombay,994,2023-01-01 16:33:00
+Student_995,19,Biotechnology,Delhi,IIT Lucknow,995,2023-01-01 16:34:00
+Student_996,20,Electrical Engineering,Lucknow,IIT Hyderabad,996,2023-01-01 16:35:00
+Student_997,23,Mechanical Engineering,Delhi,IIT Delhi,997,2023-01-01 16:36:00
+Student_998,24,Civil Engineering,Bangalore,IIT Chennai,998,2023-01-01 16:37:00
+Student_999,21,Chemical Engineering,Hyderabad,IIT Lucknow,999,2023-01-01 16:38:00
+Student_1000,25,Chemical Engineering,Ahmedabad,IIT Delhi,1000,2023-01-01 16:39:00
